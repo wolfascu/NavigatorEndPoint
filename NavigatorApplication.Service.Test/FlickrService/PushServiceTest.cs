@@ -42,7 +42,10 @@ namespace NavigatorApplication.Service.Test.FlickrService
             var lease = 0;
             var verify = "sync";
 
+            //TODO: Need to setup Authentication 
+            //See: http://flickrnet.codeplex.com/SourceControl/latest#FlickrNetTest/PushTests.cs
             var f = FlickrHelpers.GetAuthInstance();
+            
             f.PushSubscribe(topic, callback, verify, null, lease, null, null, 0, 0, 0, FlickrNet.RadiusUnit.None, FlickrNet.GeoAccuracy.None, null, null);
 
             Assert.Fail("TODO");
