@@ -49,6 +49,10 @@ namespace NavigatorApplication.Service.Test.FlickrService
         }
 
 
+        public void Test()
+        {
+            
+        }
 
 
 
