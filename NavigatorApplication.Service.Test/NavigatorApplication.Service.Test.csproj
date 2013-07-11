@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FlickrService\PushServiceTest.cs" />
+    <Compile Include="FlickrService\SearchServiceTest.cs" />
     <Compile Include="Helpers\FlickrHelpers.cs" />
     <Compile Include="Parser\AtomFeedTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

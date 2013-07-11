@@ -45,7 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FlickrService\IPushService.cs" />
+    <Compile Include="FlickrService\ISearchService.cs" />
     <Compile Include="FlickrService\PushService.cs" />
+    <Compile Include="FlickrService\SearchService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
