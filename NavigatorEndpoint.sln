@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{90D24B69-8C9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigatorApplication.Infrastructure.WebApi", "NavigatorApplication.Infrastructure.WebApi\NavigatorApplication.Infrastructure.WebApi.csproj", "{16E8E497-A6E5-4EB2-A6C1-DD1B07A557CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigatorApplication.Infrastructure.WebApi.Test", "NavigatorApplication.Infrastructure.WebApi.Test\NavigatorApplication.Infrastructure.WebApi.Test.csproj", "{B9294497-19AF-4363-9847-5896012F413A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{16E8E497-A6E5-4EB2-A6C1-DD1B07A557CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16E8E497-A6E5-4EB2-A6C1-DD1B07A557CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16E8E497-A6E5-4EB2-A6C1-DD1B07A557CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9294497-19AF-4363-9847-5896012F413A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9294497-19AF-4363-9847-5896012F413A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9294497-19AF-4363-9847-5896012F413A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9294497-19AF-4363-9847-5896012F413A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
