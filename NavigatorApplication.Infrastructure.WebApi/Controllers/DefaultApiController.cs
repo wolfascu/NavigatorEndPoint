@@ -12,6 +12,9 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
     {
         public string Get(int id)
         {
+            if(id == 1)
+              throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.NotFound));
+
             return "value";
         }
 
@@ -20,23 +23,24 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        public PostResponse Post([FromBody]Person aPerson)
+        public PostResponse Post([FromBody]Person person)
         {
-            var responseObj = new PostResponse();
-            if (aPerson == null)
+            var response = new PostResponse();
+            if (person == null)
             {
-                responseObj.ResponseText = "aPerson is null";
-                return responseObj;
+                response.ResponseText = "Person is null";
+                return response;
             }
 
-            if (aPerson.FirstName == null)
+            if (person.FirstName == null)
             {
-                responseObj.ResponseText = "First Name is null";
-                return responseObj;
+                response.ResponseText = "First Name is null";
+                return response;
             }
 
-            responseObj.ResponseText = string.Format("The first name is {0}", aPerson.FirstName);
-            return responseObj;
+            response.ResponseText = string.Format("The first name is {0}", person.FirstName);
+            
+            return response;
         }
     }
 }
