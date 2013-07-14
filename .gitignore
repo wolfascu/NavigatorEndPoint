@@ -1,4 +1,5 @@
 /_ReSharper.NavigatorEndpoint/
 /packages/
+/bin/
 *.user
 *.suo
