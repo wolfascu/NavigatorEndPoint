@@ -1,0 +1,113 @@
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+      xmlns:georss="http://www.georss.org/georss"
+      xmlns:woe="http://where.yahooapis.com/v1/schema.rng"
+      xmlns:flickr="urn:flickr:feed"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns:at="http://purl.org/atompub/tombstones/1.0">
+  <title>Flickr Push Feed</title>
+  <id>urn:flickr:feed:1373429325</id>
+  <updated>2013-07-10T04:08:45Z</updated><entry>
+    <title>DSC01772</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9253880920/"/>
+    <id>tag:flickr.com,2005:/photo/9253880920</id>
+    <published>2013-07-10T04:07:23Z</published>
+    <flickr:update type="geo" />
+    <flickr:update type="created" />
+    <updated>2013-07-10T04:07:23Z</updated>
+    <flickr:date_taken>2013-04-21T17:49:07-08:00</flickr:date_taken>
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9253880920/&quot; title=&quot;DSC01772&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3708/9253880920_75b9ded583_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;DSC01772&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>SPS101</name>
+      <uri>http://www.flickr.com/people/stuartshay/</uri>
+      <flickr:nsid>47222519@N07</flickr:nsid>
+      <flickr:buddyicon>http://l.yimg.com/g/images/buddyicon07.png#47222519@N07</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_b.jpg" />
+    <georss:point>40.748025 -74.004706</georss:point>
+    <geo:lat>40.748025</geo:lat>
+    <geo:long>-74.004706</geo:long>
+    <woe:woeid>2378824</woe:woeid>
+    <media:content url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_b.jpg" 
+                   type="image/jpeg"
+                   height="1024"
+                   width="768"/>
+    <media:title>DSC01772</media:title>
+        <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_75b9ded583_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_8deb3dd46f_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_55154a29cc_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3708/9253880920_19f39503bb_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
+    <flickr:exif>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.02</flickr:shutterspeed>
+        <flickr:aperture>3.5</flickr:aperture>
+        <flickr:focallength>7</flickr:focallength>
+    </flickr:exif>
+    <flickr:safety>safe</flickr:safety>
+</entry>
+
+<entry>
+    <title>DSC01783</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9251099463/"/>
+    <id>tag:flickr.com,2005:/photo/9251099463</id>
+    <published>2013-07-10T04:07:28Z</published>
+    <flickr:update type="geo" />
+    <flickr:update type="created" />
+    <updated>2013-07-10T04:07:28Z</updated>
+    <flickr:date_taken>2013-04-21T17:55:16-08:00</flickr:date_taken>
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9251099463/&quot; title=&quot;DSC01783&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7430/9251099463_775f98f16e_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;DSC01783&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>SPS101</name>
+      <uri>http://www.flickr.com/people/stuartshay/</uri>
+      <flickr:nsid>47222519@N07</flickr:nsid>
+      <flickr:buddyicon>http://l.yimg.com/g/images/buddyicon07.png#47222519@N07</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_b.jpg" />
+    <georss:point>40.750652 -74.002903</georss:point>
+    <geo:lat>40.750652</geo:lat>
+    <geo:long>-74.002903</geo:long>
+    <woe:woeid>2378824</woe:woeid>
+    <media:content url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_b.jpg" 
+                   type="image/jpeg"
+                   height="1024"
+                   width="768"/>
+    <media:title>DSC01783</media:title>
+        <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_775f98f16e_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_73b83d0926_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_e7c405cbb7_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7430/9251099463_1d07f78ed0_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
+    <flickr:exif>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.008</flickr:shutterspeed>
+        <flickr:aperture>4.5</flickr:aperture>
+        <flickr:focallength>19</flickr:focallength>
+    </flickr:exif>
+    <flickr:safety>safe</flickr:safety>
+</entry>
+
+</feed>
