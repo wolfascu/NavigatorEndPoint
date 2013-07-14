@@ -43,16 +43,5 @@ namespace NavigatorApplication.Infrastructure.WebApi.Test.WebApiTests
             Assert.AreEqual("application/json", response.Content.Headers.ContentType.MediaType);
         }
 
-
-
-
-
-
-        [Test]
-        public void GetAuthenticationStatus()
-        {
-            Assert.AreNotEqual(HttpStatusCode.Unauthorized, response.StatusCode);
-
-        } 
     }
 }
