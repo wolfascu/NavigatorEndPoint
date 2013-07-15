@@ -4,3 +4,6 @@ Notes Go on this Page
 1. Flickr Setup Registry Auth
 http://www.wackylabs.net/2011/12/oauth-and-flickr-part-1/
 http://www.wackylabs.net/2011/12/oauth-and-flickr-part-2/
+
+
+http://www.strathweb.com/2012/04/rss-atom-mediatypeformatter-for-asp-net-webapi

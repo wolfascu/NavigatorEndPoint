@@ -1,4 +1,6 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi
+﻿using System.ServiceModel.Syndication;
+
+namespace NavigatorApplication.Infrastructure.WebApi
 {
     using System.Web;
     using System.Web.Http;
@@ -11,6 +13,8 @@
         {
             AreaRegistration.RegisterAllAreas();
             WebApiConfig.Register(GlobalConfiguration.Configuration);
+
+            //GlobalConfiguration.Configuration.Formatters.Add(new SyndicationFeedFormatter());
         }
     }
 }

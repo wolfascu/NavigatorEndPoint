@@ -5,6 +5,3 @@ D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\obj\Debug\NavigatorApplication.Infrastructure.WebApi.Test.dll
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\obj\Debug\NavigatorApplication.Infrastructure.WebApi.Test.pdb
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\bin\Debug\NavigatorApplication.Infrastructure.WebApi.Test.dll.config
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\bin\Debug\NavigatorApplication.Infrastructure.WebApi.Test.dll.CodeAnalysisLog.xml
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\bin\Debug\NavigatorApplication.Infrastructure.WebApi.Test.dll.lastcodeanalysissucceeded
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\obj\Debug\NavigatorApplication.Infrastructure.WebApi.Test.csprojResolveAssemblyReference.cache
