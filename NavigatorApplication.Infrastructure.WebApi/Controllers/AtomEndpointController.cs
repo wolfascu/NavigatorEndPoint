@@ -1,4 +1,6 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿using NavigatorApplication.Service.Repository;
+
+namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Collections.Generic;
     using System.Web.Http;
@@ -18,37 +20,29 @@
         {
             this.urlRepository = urlRepository;
         }
-        
 
-        // GET /api/values
         public IEnumerable<Url> Get()
         {
             //return new string[] { "value1", "value2" };
             return urlRepository.GetAll();
         }
 
-        // GET /api/values/5
         public Url Get(int id)
         {
             return urlRepository.Get(id);
         }
 
-        // POST /api/values
         public void Post(string value)
         {
         }
 
-        // PUT /api/values/5
         public void Put(int id, string value)
         {
         }
 
-        // DELETE /api/values/5
         public void Delete(int id)
         {
         }
-
-
 
     }
 }

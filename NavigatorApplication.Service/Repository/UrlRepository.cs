@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace NavigatorApplication.Service.DTO
+﻿namespace NavigatorApplication.Service.Repository
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using NavigatorApplication.Service.DTO;
+
     public class UrlRepository : IUrlRepository
     {
         private List<Url> _urls = new List<Url>();

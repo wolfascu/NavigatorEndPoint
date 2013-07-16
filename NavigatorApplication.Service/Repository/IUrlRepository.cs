@@ -1,6 +1,7 @@
 ﻿using System.Linq;
+using NavigatorApplication.Service.DTO;
 
-namespace NavigatorApplication.Service.DTO
+namespace NavigatorApplication.Service.Repository
 {
     public interface IUrlRepository
     {

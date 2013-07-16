@@ -1,4 +1,6 @@
-﻿using System.ServiceModel.Syndication;
+﻿using Microsoft.Practices.Unity;
+using NavigatorApplication.Common.DI;
+using NavigatorApplication.Service.Repository;
 
 namespace NavigatorApplication.Infrastructure.WebApi
 {
@@ -9,6 +11,8 @@ namespace NavigatorApplication.Infrastructure.WebApi
 
     public class WebApiApplication : HttpApplication
     {
+        
+        
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();

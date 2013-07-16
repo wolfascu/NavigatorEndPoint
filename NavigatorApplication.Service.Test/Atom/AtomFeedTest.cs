@@ -1,11 +1,10 @@
-﻿namespace NavigatorApplication.Service.Test.Atom
+﻿using NavigatorApplication.Service.Repository;
+
+namespace NavigatorApplication.Service.Test.Atom
 {
     using Microsoft.Practices.Unity;
     using NavigatorApplication.Service.DTO;
     using NavigatorApplication.Common.DI;
-    using NavigatorApplication.Service.FlickrService;
-    using NavigatorApplication.Service.Test.Helpers;
-
     using NUnit.Framework;
     using System;
 
@@ -22,7 +21,18 @@
         }
 
         [Test]
-        public void Can_Get_List_of_Topics()
+        public void Can_Get_Url_Repository_Urls()
+        {
+            var urls = urlRepository.GetAll();
+            foreach (var url in urls)
+            {
+                Console.WriteLine(url.Title);  
+            }
+        }
+
+
+        [Test]
+        public void Can_Get_Url_Repository_Url()
         {
             var url = urlRepository.Get(1);
             Console.WriteLine(url.Title);

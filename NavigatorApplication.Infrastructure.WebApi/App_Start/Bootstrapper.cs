@@ -1,9 +1,9 @@
-using System.Web.Http;
-using Microsoft.Practices.Unity;
-using NavigatorApplication.Service.DTO;
-
-namespace NavigatorApplication.Infrastructure.WebApi
+namespace NavigatorApplication.Infrastructure.WebApi.App_Start
 {
+    using System.Web.Http;
+    using Microsoft.Practices.Unity;
+    using NavigatorApplication.Service.Repository;
+
     public static class Bootstrapper
     {
         public static void Initialise()
@@ -17,8 +17,7 @@ namespace NavigatorApplication.Infrastructure.WebApi
         {
             var container = new UnityContainer();
 
-            container
-               .RegisterType<IUrlRepository, IUrlRepository>();
+            container.RegisterType<IUrlRepository, UrlRepository>();
           
             return container;
         }

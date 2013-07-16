@@ -18,9 +18,13 @@ D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.dll
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.pdb
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.ServiceLocation.dll
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.Unity.Configuration.dll
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Unity.WebApi.dll
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.ServiceLocation.pdb
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.ServiceLocation.xml
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\NavigatorApplication.Infrastructure.WebApi.dll.config
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\System.Net.Http.Extensions.dll
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\System.Net.Http.Primitives.dll
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\System.Net.Http.Extensions.xml
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\System.Net.Http.Primitives.xml
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.csproj.App.config
