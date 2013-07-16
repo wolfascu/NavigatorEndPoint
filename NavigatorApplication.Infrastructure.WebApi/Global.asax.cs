@@ -15,6 +15,7 @@ namespace NavigatorApplication.Infrastructure.WebApi
             WebApiConfig.Register(GlobalConfiguration.Configuration);
 
             //GlobalConfiguration.Configuration.Formatters.Add(new SyndicationFeedFormatter());
+            Bootstrapper.Initialise();
         }
     }
 }

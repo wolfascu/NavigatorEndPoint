@@ -18,3 +18,9 @@ D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.dll
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.pdb
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Unity.WebApi.dll
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Microsoft.Practices.Unity.Configuration.xml

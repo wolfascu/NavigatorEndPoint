@@ -1,15 +1,13 @@
-﻿using System;
-using NavigatorApplication.Common.DI;
-using NavigatorApplication.Service.FlickrService;
-using NavigatorApplication.Service.Test.Helpers;
-
-namespace NavigatorApplication.Service.Test.FlickrService
+﻿namespace NavigatorApplication.Service.Test.FlickrService
 {
-    using FlickrNet;
-
     using Microsoft.Practices.Unity;
 
+    using NavigatorApplication.Common.DI;
+    using NavigatorApplication.Service.FlickrService;
+    using NavigatorApplication.Service.Test.Helpers;
+
     using NUnit.Framework;
+    using System;
 
     [TestFixture]
     public class PushServiceTest

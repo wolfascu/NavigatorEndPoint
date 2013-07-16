@@ -44,9 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\IUrlRepository.cs" />
+    <Compile Include="Repository\IUrlRepository.cs" />
     <Compile Include="DTO\Url.cs" />
-    <Compile Include="DTO\UrlRepository.cs" />
+    <Compile Include="Repository\UrlRepository.cs" />
     <Compile Include="FlickrService\IPushService.cs" />
     <Compile Include="FlickrService\ISearchService.cs" />
     <Compile Include="FlickrService\PushService.cs" />
