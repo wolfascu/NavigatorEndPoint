@@ -1,4 +1,6 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
+﻿using NavigatorApplication.Common.Helpers;
+
+namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
 {
     using System;
     using System.IO;
@@ -27,8 +29,7 @@
 
         public override bool CanWriteType(Type type)
         {
-            throw new NotImplementedException();
-            //return type.Implements<IPublicationCategoriesDocument>();
+          return type.Implements<IPublicationCategoriesDocument>();
         }
 
         public override void WriteToStream(Type type, object value, Stream writeStream, HttpContent content)

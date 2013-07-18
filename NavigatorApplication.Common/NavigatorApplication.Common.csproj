@@ -50,6 +50,9 @@
   <ItemGroup>
     <Compile Include="DI\IoC.cs" />
     <Compile Include="Helpers\Ensure.cs" />
+    <Compile Include="Helpers\RegexUtils.cs" />
+    <Compile Include="Helpers\StringExtensions.cs" />
+    <Compile Include="Helpers\TypeExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -22,14 +22,12 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
 
         public override bool CanReadType(Type type)
         {
-            throw new NotImplementedException();
-            //return type.Implements<IPublicationCommand>();
+            return type.Implements<IPublicationCommand>();
         }
 
         public override bool CanWriteType(Type type)
         {
-            throw new NotImplementedException();
-            //return type.Implements<IPublication>() || type.Implements<IPublicationFeed>();
+            return type.Implements<IPublication>() || type.Implements<IPublicationFeed>();
         }
 
         public override object ReadFromStream(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)

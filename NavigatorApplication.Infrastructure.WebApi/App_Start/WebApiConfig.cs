@@ -11,7 +11,7 @@
         {
             // Handlers
             config.MessageHandlers.Add(new WLWMessageHandler());
-            //config.MessageHandlers.Add(new EnrichingHandler());
+            config.MessageHandlers.Add(new EnrichingHandler());
 
             // Formatters
             config.Formatters.Remove(config.Formatters.XmlFormatter);

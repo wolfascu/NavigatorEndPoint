@@ -1,7 +1,0 @@
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\bin\Debug\NavigatorApplication.Infrastructure.WebApi.Test.dll
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\bin\Debug\NavigatorApplication.Infrastructure.WebApi.Test.pdb
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\bin\Debug\nunit.framework.dll
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\bin\Debug\nunit.framework.xml
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\obj\Debug\NavigatorApplication.Infrastructure.WebApi.Test.dll
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\obj\Debug\NavigatorApplication.Infrastructure.WebApi.Test.pdb
-D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi.Test\bin\Debug\NavigatorApplication.Infrastructure.WebApi.Test.dll.config
