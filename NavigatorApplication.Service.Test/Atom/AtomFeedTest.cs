@@ -3,7 +3,6 @@
 namespace NavigatorApplication.Service.Test.Atom
 {
     using Microsoft.Practices.Unity;
-    using NavigatorApplication.Service.DTO;
     using NavigatorApplication.Common.DI;
     using NUnit.Framework;
     using System;
@@ -11,19 +10,19 @@ namespace NavigatorApplication.Service.Test.Atom
     [TestFixture]
     public class AtomFeedTest
     {
-        private IUrlRepository urlRepository;
+        private IFeedRepository feedRepository;
 
         [SetUp]
         public void Setup()
         {
-            IoC.Container.RegisterType<IUrlRepository, UrlRepository>();
-            urlRepository = IoC.Container.Resolve<IUrlRepository>();
+            IoC.Container.RegisterType<IFeedRepository, FeedRepository>();
+            feedRepository = IoC.Container.Resolve<IFeedRepository>();
         }
 
         [Test]
         public void Can_Get_Url_Repository_Urls()
         {
-            var urls = urlRepository.GetAll();
+            var urls = feedRepository.GetAll();
             foreach (var url in urls)
             {
                 Console.WriteLine(url.Title);  
@@ -34,15 +33,8 @@ namespace NavigatorApplication.Service.Test.Atom
         [Test]
         public void Can_Get_Url_Repository_Url()
         {
-            var url = urlRepository.Get(1);
-            Console.WriteLine(url.Title);
+            var feed = feedRepository.Get("1");
+            Console.WriteLine(feed.Title);
         }
-
-
-
-
-
-
-
     }
 }

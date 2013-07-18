@@ -44,9 +44,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Repository\IUrlRepository.cs" />
-    <Compile Include="DTO\Url.cs" />
-    <Compile Include="Repository\UrlRepository.cs" />
+    <Compile Include="DTO\AtomPub\IPublication.cs" />
+    <Compile Include="DTO\AtomPub\IPublicationCategoriesDocument.cs" />
+    <Compile Include="DTO\AtomPub\IPublicationCategory.cs" />
+    <Compile Include="DTO\AtomPub\IPublicationCommand.cs" />
+    <Compile Include="DTO\AtomPub\IPublicationFeed.cs" />
+    <Compile Include="DTO\AtomPub\PublicationCategoriesDocument.cs" />
+    <Compile Include="DTO\AtomPub\PublicationCategory.cs" />
+    <Compile Include="DTO\AtomPub\PublicationContentTypes.cs" />
+    <Compile Include="DTO\Links\AlternateLink.cs" />
+    <Compile Include="DTO\Links\CollectionLink.cs" />
+    <Compile Include="DTO\Links\EditLink.cs" />
+    <Compile Include="DTO\Links\EditMediaLink.cs" />
+    <Compile Include="DTO\Links\FirstLink.cs" />
+    <Compile Include="DTO\Links\LastLink.cs" />
+    <Compile Include="DTO\Links\Link.cs" />
+    <Compile Include="DTO\Links\NextLink.cs" />
+    <Compile Include="DTO\Links\PreviousLink.cs" />
+    <Compile Include="DTO\Links\RelatedLink.cs" />
+    <Compile Include="DTO\Links\SelfLink.cs" />
+    <Compile Include="Repository\IFeedRepository.cs" />
+    <Compile Include="DTO\Feed.cs" />
+    <Compile Include="Repository\FeedRepository.cs" />
     <Compile Include="FlickrService\IPushService.cs" />
     <Compile Include="FlickrService\ISearchService.cs" />
     <Compile Include="FlickrService\PushService.cs" />
@@ -55,6 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NavigatorApplication.Common\NavigatorApplication.Common.csproj">
+      <Project>{0c880738-21c9-44b1-8a87-44768be6cfb1}</Project>
+      <Name>NavigatorApplication.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

@@ -1,35 +1,30 @@
-﻿using NavigatorApplication.Service.Repository;
-
-namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Collections.Generic;
     using System.Web.Http;
     using NavigatorApplication.Service.DTO;
-    
+    using NavigatorApplication.Service.Repository;
+
     public class AtomEndpointController : ApiController
     {
-        //RSS & Atom MediaTypeFormatter for ASP.NET WebAPI
-        //http://www.strathweb.com/2012/04/rss-atom-mediatypeformatter-for-asp-net-webapi
-
         //Create Atom Endpoint to Recieve Flickr Feeds
         //http://ben.onfabrik.com/posts/atompub-aspnet-web-api-part1
+        
+        private readonly IFeedRepository feedRepository;
 
-        private readonly IUrlRepository urlRepository;
-
-        public AtomEndpointController(IUrlRepository urlRepository)
+        public AtomEndpointController(IFeedRepository urlRepository)
         {
-            this.urlRepository = urlRepository;
+            this.feedRepository = urlRepository;
         }
 
-        public IEnumerable<Url> Get()
+        public IEnumerable<Feed> Get()
         {
-            //return new string[] { "value1", "value2" };
-            return urlRepository.GetAll();
+            return feedRepository.GetAll();
         }
 
-        public Url Get(int id)
+        public Feed Get(string id)
         {
-            return urlRepository.Get(id);
+            return feedRepository.Get(id);
         }
 
         public void Post(string value)
@@ -40,7 +35,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
         {
         }
 
-        public void Delete(int id)
+        public void Delete(string id)
         {
         }
 

@@ -21,6 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigatorApplication.Infras
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigatorApplication.Infrastructure.WebApi.Test", "NavigatorApplication.Infrastructure.WebApi.Test\NavigatorApplication.Infrastructure.WebApi.Test.csproj", "{B9294497-19AF-4363-9847-5896012F413A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XSD", "XSD", "{FA0143F7-EF66-4214-B91E-5F52D1FC2660}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\XSD\atom_xsd.xml = Documents\XSD\atom_xsd.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +55,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA0143F7-EF66-4214-B91E-5F52D1FC2660} = {EA8298DE-EFB4-4954-AFC0-382B75F280AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35

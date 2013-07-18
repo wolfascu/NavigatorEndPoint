@@ -96,7 +96,11 @@
     <Compile Include="App_Start\Bootstrapper.cs" />
     <Compile Include="Controllers\AtomEndpointController.cs" />
     <Compile Include="Controllers\DefaultApiController.cs" />
-    <Compile Include="Extensions\Fomatters\SyndicationFeedFormatter.cs" />
+    <Compile Include="Extensions\Fomatters\AtomExtensions.cs" />
+    <Compile Include="Extensions\Fomatters\AtomPubCategoryMediaTypeFormatter.cs" />
+    <Compile Include="Extensions\Fomatters\AtomPubMediaTypeFormatter.cs" />
+    <Compile Include="Extensions\Handler\EnrichingHandler.cs" />
+    <Compile Include="Extensions\Handler\WLWMessageHandler.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -127,6 +131,7 @@
       <Name>NavigatorApplication.Service</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
