@@ -1,0 +1,35 @@
+User-Agent: Fiddler
+Content-Type: application/xml
+Accept: application/xml
+Host: localhost:2853
+Content-Length: 414
+
+User-Agent: Fiddler
+Content-Type: application/atom+xml
+Accept: application/atom+xml
+Host: localhost:2853
+Content-Length: 211
+
+
+
+
+<Feed xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/NavigatorApplication.Infrastructure.WebApi.Model">
+    <Links xmlns:d2p1="http://schemas.datacontract.org/2004/07/NavigatorApplication.Service.DTO.Links" />
+    <Author>John Doe</Author>
+    <Posts />
+    <Summary>A blog about Atom-Powered robots.</Summary>
+    <Title>My Post Feed</Title>
+</Feed>
+
+
+
+<Feed xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/NavigatorApplication.Infrastructure.WebApi.Model">
+    <title>Flickr Push Feed</title>
+    <Id>flickr:feed:1373428650</Id>    
+    <Updated>2013-07-10T03:57:30Z</Updated>
+   <Entry>
+      <Id>flickr:feed:1373428650</Id>   
+   </Entry>
+
+</Feed>
+

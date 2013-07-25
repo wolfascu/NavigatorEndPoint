@@ -1,4 +1,5 @@
-﻿using Microsoft.Practices.Unity;
+﻿using System.ServiceModel.Syndication;
+using Microsoft.Practices.Unity;
 using NavigatorApplication.Common.DI;
 using NavigatorApplication.Service.Repository;
 
@@ -19,6 +20,8 @@ namespace NavigatorApplication.Infrastructure.WebApi
             WebApiConfig.Register(GlobalConfiguration.Configuration);
 
             //GlobalConfiguration.Configuration.Formatters.Add(new SyndicationFeedFormatter());
+            
+            
             Bootstrapper.Initialise();
         }
     }
