@@ -1,0 +1,165 @@
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+      xmlns:georss="http://www.georss.org/georss"
+      xmlns:woe="http://where.yahooapis.com/v1/schema.rng"
+      xmlns:flickr="urn:flickr:feed"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns:at="http://purl.org/atompub/tombstones/1.0">
+  <title>Flickr Push Feed</title>
+  <id>urn:flickr:feed:1374938380</id>
+  <updated>2013-07-27T15:19:40Z</updated><entry>
+    <title>Eternal Light Flagstaff</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9375721211/"/>
+    <id>tag:flickr.com,2005:/photo/9375721211</id>
+    <published>2013-07-27T15:12:13Z</published>
+    <flickr:update type="title" />
+    <updated>2013-07-27T15:12:13Z</updated>
+    <flickr:date_taken>2013-04-21T18:44:09-08:00</flickr:date_taken>
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9375721211/&quot; title=&quot;Eternal Light Flagstaff&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Eternal Light Flagstaff&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>SPS101</name>
+      <uri>http://www.flickr.com/people/stuartshay/</uri>
+      <flickr:nsid>47222519@N07</flickr:nsid>
+      <flickr:buddyicon>http://l.yimg.com/g/images/buddyicon07.png#47222519@N07</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_b.jpg" />
+    <category term="nycparks:M052=961" scheme="http://www.flickr.com/photos/tags/" />
+    <georss:point>40.741972 -73.988681</georss:point>
+    <geo:lat>40.741972</geo:lat>
+    <geo:long>-73.988681</geo:long>
+    <woe:woeid>28751245</woe:woeid>
+    <media:content url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_b.jpg" 
+                   type="image/jpeg"
+                   height="1024"
+                   width="768"/>
+    <media:title>Eternal Light Flagstaff</media:title>
+        <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_dcfc26c34b_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_6e429957f2_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_41d2990f43_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3784/9375721211_8d851ef06a_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
+    <media:category scheme="urn:flickr:tags">nycparks:M052=961</media:category>
+    <flickr:exif>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.02</flickr:shutterspeed>
+        <flickr:aperture>3.5</flickr:aperture>
+        <flickr:focallength>6</flickr:focallength>
+    </flickr:exif>
+    <flickr:safety>safe</flickr:safety>
+</entry>
+
+<entry>
+    <title>Eternal Light Flagstaff</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9375720045/"/>
+    <id>tag:flickr.com,2005:/photo/9375720045</id>
+    <published>2013-07-27T15:12:02Z</published>
+    <flickr:update type="title" />
+    <updated>2013-07-27T15:12:02Z</updated>
+    <flickr:date_taken>2013-04-21T18:43:34-08:00</flickr:date_taken>
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9375720045/&quot; title=&quot;Eternal Light Flagstaff&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Eternal Light Flagstaff&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>SPS101</name>
+      <uri>http://www.flickr.com/people/stuartshay/</uri>
+      <flickr:nsid>47222519@N07</flickr:nsid>
+      <flickr:buddyicon>http://l.yimg.com/g/images/buddyicon07.png#47222519@N07</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_b.jpg" />
+    <category term="nycparks:M052=961" scheme="http://www.flickr.com/photos/tags/" />
+    <georss:point>40.742088 -73.988795</georss:point>
+    <geo:lat>40.742088</geo:lat>
+    <geo:long>-73.988795</geo:long>
+    <woe:woeid>28751245</woe:woeid>
+    <media:content url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_b.jpg" 
+                   type="image/jpeg"
+                   height="1024"
+                   width="768"/>
+    <media:title>Eternal Light Flagstaff</media:title>
+        <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_faa4aee2e1_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_3c0691b5df_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_26acaa0dc7_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7445/9375720045_8c125fa3a0_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
+    <media:category scheme="urn:flickr:tags">nycparks:M052=961</media:category>
+    <flickr:exif>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.016625</flickr:shutterspeed>
+        <flickr:aperture>3.5</flickr:aperture>
+        <flickr:focallength>7</flickr:focallength>
+    </flickr:exif>
+    <flickr:safety>safe</flickr:safety>
+</entry>
+
+<entry>
+    <title>Madison Square Park</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9375727885/"/>
+    <id>tag:flickr.com,2005:/photo/9375727885</id>
+    <published>2013-07-27T15:13:16Z</published>
+    <flickr:update type="title" />
+    <updated>2013-07-27T15:13:16Z</updated>
+    <flickr:date_taken>2013-04-21T18:47:05-08:00</flickr:date_taken>
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9375727885/&quot; title=&quot;Madison Square Park&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5449/9375727885_d835cd5778_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;Madison Square Park&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+    <author>
+      <name>SPS101</name>
+      <uri>http://www.flickr.com/people/stuartshay/</uri>
+      <flickr:nsid>47222519@N07</flickr:nsid>
+      <flickr:buddyicon>http://l.yimg.com/g/images/buddyicon07.png#47222519@N07</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_b.jpg" />
+    <georss:point>40.742822 -73.988409</georss:point>
+    <geo:lat>40.742822</geo:lat>
+    <geo:long>-73.988409</geo:long>
+    <woe:woeid>28751245</woe:woeid>
+    <media:content url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_b.jpg" 
+                   type="image/jpeg"
+                   height="768"
+                   width="1024"/>
+    <media:title>Madison Square Park</media:title>
+        <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_d835cd5778_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_0e1e8e1ed2_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_0b76ae2c26_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5449/9375727885_b58641eaa5_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
+    <flickr:exif>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.033375</flickr:shutterspeed>
+        <flickr:aperture>3.2</flickr:aperture>
+        <flickr:focallength>5</flickr:focallength>
+    </flickr:exif>
+    <flickr:safety>safe</flickr:safety>
+</entry>
+
+</feed>
