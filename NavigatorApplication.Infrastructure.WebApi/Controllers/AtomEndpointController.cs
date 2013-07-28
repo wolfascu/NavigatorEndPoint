@@ -1,4 +1,9 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿using System.Net.Http;
+using System.ServiceModel.Syndication;
+using Raven.Client;
+using Raven.Client.Document;
+
+namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Collections.Generic;
     using System.Web.Http;
@@ -12,14 +17,26 @@
         
         private readonly IFeedRepository feedRepository;
 
+        private IDocumentSession _session;
+
         public AtomEndpointController(IFeedRepository urlRepository)
         {
             this.feedRepository = urlRepository;
+
+            var _store = new DocumentStore()
+            {
+                Url = "http://localhost:8080/"
+            };
+            _store.Initialize();
+            _store.JsonRequestFactory.DisableRequestCompression = true;
+            _session = _store.OpenSession();
         }
 
-        public IEnumerable<Feed> Get()
+        public HttpResponseMessage Get(string mode, string topic, string challenge)
         {
-            return feedRepository.GetAll();
+            var response = Request.CreateResponse();
+            response.Content = new StringContent(challenge);
+            return response;
         }
 
         public Feed Get(string id)
@@ -27,8 +44,13 @@
             return feedRepository.Get(id);
         }
 
-        public void Post(string value)
+        public void Post(Model.Feed feed)
         {
+            if(feed != null)
+            {
+                _session.Store(feed);
+                _session.SaveChanges();
+            }            
         }
 
         public void Put(int id, string value)

@@ -35,7 +35,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.Model
         public string Slug { get; set; }
         public string Summary { get; set; }
         public string ContentType { get; set; }
-        public DateTime LastUpdated { get; private set; }
+        public DateTime LastUpdated { get; set; }
 
         public string Content { get; set; }
         public string[] Tags { get; set; }
@@ -44,6 +44,8 @@ namespace NavigatorApplication.Infrastructure.WebApi.Model
 
         public string CategoriesScheme { get; private set; }
         public IEnumerable<Link> Links { get; private set; }
+
+        public string Xml { get; set; }
 
     }
 
@@ -54,6 +56,11 @@ namespace NavigatorApplication.Infrastructure.WebApi.Model
 
         public string Id { get; set; }
 
+        public IList<string> UpdateType { get; set; }
+
+        public string PhotoId { get; set; }
+
+        public string Tag { get; set; }
       
     }
 

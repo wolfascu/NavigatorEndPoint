@@ -12,6 +12,8 @@ namespace NavigatorApplication.Service.DTO
         public string Subtitle { get; set; }
 
         public List<Entry> Entries { get; set; }
+
+        public string Xml { get; set; }
     }
 
     public class Entry

@@ -4,9 +4,14 @@ using System.Net.Http;
 using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
 using System.ServiceModel.Syndication;
+using System.Text;
 using System.Xml;
+using System.Xml.Linq;
 using NavigatorApplication.Common.Helpers;
 using NavigatorApplication.Service.DTO.AtomPub;
+using NavigatorApplication.Infrastructure.WebApi.Model;
+using Raven.Client;
+using Raven.Client.Document;
 
 namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
 {
@@ -17,17 +22,17 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
         public AtomPubMediaFormatter()
         {
             SupportedMediaTypes.Add(new MediaTypeHeaderValue(AtomMediaType));
-            this.AddQueryStringMapping("format", "atom", AtomMediaType);
+            this.AddQueryStringMapping("format", "atom", AtomMediaType);           
         }
 
         public override bool CanReadType(Type type)
         {
-            return type.Implements<IPublicationCommand>();
+            return typeof (Feed) == type;
         }
 
         public override bool CanWriteType(Type type)
         {
-            return type.Implements<IPublication>() || type.Implements<IPublicationFeed>();
+            return /*type.Implements<IPublication>() || type.Implements<IPublicationFeed>();*/ true;
         }
 
         public override object ReadFromStream(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)
@@ -49,14 +54,20 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
                 {
                     using (var reader = XmlReader.Create(readStream))
                     {
-                        var formatter = new Atom10ItemFormatter();
-                        formatter.ReadFrom(reader);
+                        var formatter = new Atom10FeedFormatter();
+                        formatter.ReadFrom(reader);                                                
 
-                        var command = Activator.CreateInstance(type);
-                        ((IPublicationCommand)command)
-                            .ReadSyndicationItem(formatter.Item);
+                        readStream.Seek(0, SeekOrigin.Begin);
+                        var streamReader = new StreamReader(readStream);
+                        var text = streamReader.ReadToEnd();
+                        File.WriteAllText(@"E:\" + formatter.Feed.Id.Replace(":", "") + ".xml", text);
 
-                        return command;
+                        var obj = AutoMapper.Mapper.Map<SyndicationFeed, Feed>(formatter.Feed);   
+                        if(obj != null)
+                        {
+                            obj.Xml = text;
+                        }
+                        return obj;                       
                     }
                 }
             }
@@ -69,45 +80,6 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
                 formatterLogger.LogError(String.Empty, e);
                 return GetDefaultValueForType(type);
             }
-        }
-
-        public override void WriteToStream(Type type, object value, Stream writeStream, HttpContent content)
-        {
-            Ensure.Argument.NotNull(value, "value");
-
-            using (writeStream)
-            {
-                if (value is IPublicationFeed)
-                {
-                    WriteAtomFeed((IPublicationFeed)value, writeStream);
-                }
-                else
-                {
-                    WriteAtomEntry((IPublication)value, writeStream);
-                }
-            }
-        }
-
-        private void WriteAtomFeed(IPublicationFeed feed, Stream writeStream)
-        {
-            var formatter = new Atom10FeedFormatter(feed.Syndicate());
-
-            using (var writer = XmlWriter.Create(writeStream))
-            {
-                formatter.WriteTo(writer);
-            }
-        }
-
-        private void WriteAtomEntry(IPublication publication, Stream writeStream)
-        {
-            var entry = publication.Syndicate();
-
-            var formatter = new Atom10ItemFormatter(entry);
-
-            using (var writer = XmlWriter.Create(writeStream))
-            {
-                formatter.WriteTo(writer);
-            }
-        }
+        }       
     }
 }
