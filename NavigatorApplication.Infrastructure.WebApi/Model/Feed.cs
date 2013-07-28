@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
-using NavigatorApplication.Service.DTO.AtomPub;
-using NavigatorApplication.Service.DTO.Links;
-
-namespace NavigatorApplication.Infrastructure.WebApi.Model
+﻿namespace NavigatorApplication.Infrastructure.WebApi.Model
 {
+    using System;
+    using System.Collections.Generic;
+    using NavigatorApplication.Service.DTO.AtomPub;
+    using NavigatorApplication.Service.DTO.Links;
 
     public class Feed : IPublicationCommand
     {

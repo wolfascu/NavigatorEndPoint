@@ -1,21 +1,15 @@
-﻿using System.Net.Http;
-using System.ServiceModel.Syndication;
-using Raven.Client;
-using Raven.Client.Document;
-
-namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
-    using System.Collections.Generic;
-    using System.Web.Http;
     using NavigatorApplication.Service.DTO;
     using NavigatorApplication.Service.Repository;
+    using Raven.Client;
+    using Raven.Client.Document;
+    using System.Net.Http;
+    using System.Web.Http;
 
     public class AtomEndpointController : ApiController
     {
-        //Create Atom Endpoint to Recieve Flickr Feeds
-        //http://ben.onfabrik.com/posts/atompub-aspnet-web-api-part1
-        
-        private readonly IFeedRepository feedRepository;
+       private readonly IFeedRepository feedRepository;
 
         private IDocumentSession _session;
 
@@ -25,7 +19,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 
             var _store = new DocumentStore()
             {
-                Url = "http://localhost:8080/"
+                Url = "http://localhost:8081/"
             };
             _store.Initialize();
             _store.JsonRequestFactory.DisableRequestCompression = true;
