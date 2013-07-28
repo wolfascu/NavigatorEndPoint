@@ -60,7 +60,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
                         readStream.Seek(0, SeekOrigin.Begin);
                         var streamReader = new StreamReader(readStream);
                         var text = streamReader.ReadToEnd();
-                        File.WriteAllText(@"E:\" + formatter.Feed.Id.Replace(":", "") + ".xml", text);
+                        //File.WriteAllText(@"E:\" + formatter.Feed.Id.Replace(":", "") + ".xml", text);
 
                         var obj = AutoMapper.Mapper.Map<SyndicationFeed, Feed>(formatter.Feed);   
                         if(obj != null)

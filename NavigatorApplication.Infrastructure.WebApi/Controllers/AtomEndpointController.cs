@@ -49,7 +49,8 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
             if(feed != null)
             {
                 _session.Store(feed);
-                _session.SaveChanges();
+                //_session.Store(feed.Xml);
+                _session.SaveChanges();                
             }            
         }
 
