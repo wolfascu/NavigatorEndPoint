@@ -1,3 +1,7 @@
+
+
+http://localhost:2853//api/AtomEndpoint
+
 User-Agent: Fiddler
 Content-Type: application/xml
 Accept: application/xml

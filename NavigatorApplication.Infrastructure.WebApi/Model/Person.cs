@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace NavigatorApplication.Infrastructure.WebApi.Model
+﻿namespace NavigatorApplication.Infrastructure.WebApi.Model
 {
     public class Person
     {
@@ -12,8 +7,10 @@ namespace NavigatorApplication.Infrastructure.WebApi.Model
         public string LastName { get; set; }
     }
 
+
     public class PostResponse
     {
         public string ResponseText { get; set; }
     }
+
 }

@@ -7,23 +7,23 @@
     using System.Net.Http;
     using System.Web.Http;
 
-    public class AtomEndpointController : ApiController
+    public class AtomEndpointController : RavenController
     {
-       private readonly IFeedRepository feedRepository;
+        private readonly IFeedRepository feedRepository;
 
         private IDocumentSession _session;
 
         public AtomEndpointController(IFeedRepository urlRepository)
         {
-            this.feedRepository = urlRepository;
+            //this.feedRepository = urlRepository;
 
-            var _store = new DocumentStore()
-            {
-                Url = "http://localhost:8081/"
-            };
-            _store.Initialize();
-            _store.JsonRequestFactory.DisableRequestCompression = true;
-            _session = _store.OpenSession();
+            //var _store = new DocumentStore()
+            //{
+             //   Url = "http://localhost:8081/"
+            //};
+            //_store.Initialize();
+            //_store.JsonRequestFactory.DisableRequestCompression = true;
+            //_session = _store.OpenSession();
         }
 
         public HttpResponseMessage Get(string mode, string topic, string challenge)
@@ -42,11 +42,11 @@
         {
             if(feed != null)
             {
-                _session.Store(feed);
-                //_session.Store(feed.Xml);
-                _session.SaveChanges();                
+                Session.StoreAsync(feed);
+                var result = Session.SaveChangesAsync();
             }            
         }
+
 
         public void Put(int id, string value)
         {
