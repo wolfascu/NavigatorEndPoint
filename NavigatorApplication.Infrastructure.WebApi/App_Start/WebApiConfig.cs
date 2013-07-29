@@ -1,11 +1,9 @@
-﻿using AutoMapper;
-using NavigatorApplication.Infrastructure.WebApi.Extensions.Registry;
-
-namespace NavigatorApplication.Infrastructure.WebApi.App_Start
+﻿namespace NavigatorApplication.Infrastructure.WebApi.App_Start
 {
+    using AutoMapper;
+    using NavigatorApplication.Infrastructure.WebApi.Extensions.Registry;
+    
     using NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters;
-    using NavigatorApplication.Infrastructure.WebApi.Extensions.Handler;
-   
     using System.Web.Http;
    
     public static class WebApiConfig

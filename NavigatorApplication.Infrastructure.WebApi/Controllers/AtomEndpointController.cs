@@ -43,7 +43,7 @@
             if(feed != null)
             {
                 Session.StoreAsync(feed);
-                var result = Session.SaveChangesAsync();
+                Session.SaveChangesAsync();
             }            
         }
 

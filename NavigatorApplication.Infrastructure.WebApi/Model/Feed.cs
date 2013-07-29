@@ -22,14 +22,8 @@
 
         public DateTime Updated { get; set; }
 
-
-
-
         public IEnumerable<Entry> Entry { get; set; }
 
-
-
-        
         public string Slug { get; set; }
         public string Summary { get; set; }
         public string ContentType { get; set; }

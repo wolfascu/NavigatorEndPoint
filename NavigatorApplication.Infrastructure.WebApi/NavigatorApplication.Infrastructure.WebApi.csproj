@@ -123,16 +123,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Model\AddPostCommand.cs" />
     <Compile Include="Model\Feed.cs" />
     <Compile Include="Model\Person.cs" />
     <Compile Include="Model\Post.cs" />
     <Compile Include="Model\PostFeed.cs" />
     <Compile Include="Model\PostModel.cs" />
-    <Compile Include="Model\PostResponseEnricher.cs" />
     <Compile Include="Model\Resource.cs" />
     <Compile Include="Model\TagModel.cs" />
-    <Compile Include="Model\TestModel.cs" />
     <Compile Include="Model\UpdatePostCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
