@@ -15,10 +15,10 @@
             config.MessageHandlers.Add(new EnrichingHandler());*/
 
             // Formatters
-           config.Formatters.Remove(config.Formatters.XmlFormatter);
+           //config.Formatters.Remove(config.Formatters.XmlFormatter);
            // config.Formatters.XmlFormatter.UseXmlSerializer = true;
             
-            config.Formatters.Add(new AtomPubMediaFormatter());
+           
             //config.Formatters.Add(new AtomPubCategoryMediaTypeFormatter());
 
             // Filters

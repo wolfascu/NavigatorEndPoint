@@ -1,9 +1,12 @@
 ﻿namespace NavigatorApplication.Infrastructure.WebApi
 {
+    using NavigatorApplication.Infrastructure.WebApi.App_Start;
+    
     using System.Web;
     using System.Web.Http;
     using System.Web.Mvc;
-    using NavigatorApplication.Infrastructure.WebApi.App_Start;
+    using System.Web.Routing;
+    using System.Web.Optimization;
 
     public class WebApiApplication : HttpApplication
     {
@@ -11,6 +14,10 @@
         {
             AreaRegistration.RegisterAllAreas();
             WebApiConfig.Register(GlobalConfiguration.Configuration);
+
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            FormatterConfig.RegisterFormatters(GlobalConfiguration.Configuration.Formatters);
 
             Bootstrapper.Initialise();
         }

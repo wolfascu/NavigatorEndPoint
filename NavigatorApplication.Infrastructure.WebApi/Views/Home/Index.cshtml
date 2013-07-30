@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Test";
+}
+
+<div>
+    <table>
+        <tr>
+            <td>URL</td>
+            <td>
+                <input id="url" value="/api/FlickrService" /></td>
+        </tr>
+        <tr>
+            <td>Method</td>
+            <td>
+                <select id="method">
+                    <option value="POST">Post</option>
+                    <option value="GET">Get</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Request XML Data</td>
+            <td>
+                <textarea id="content"> </textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" id="submit" value="Send" /></td>
+        </tr>
+    </table>
+    <h5>Response</h5>
+    <p id="response" style="white-space:pre"></p>
+</div>
+
+
+
+
+@section scripts
+{
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">
+        $("#submit").bind("click", function () {
+            $("#response").text("Loading...");
+            $.ajax({
+                url: $("#url").val(),
+                type: $("#method").val(),
+                contentType: "text/xml",
+                data: $("#content").val(),
+                success: function (data, textStatus, xhr) {
+                    $("#response").text(data);
+                }
+            });
+        });
+    </script>
+}
+

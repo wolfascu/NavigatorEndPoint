@@ -1,4 +1,7 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿using System.Net;
+using System.Threading.Tasks;
+
+namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using NavigatorApplication.Service.DTO;
     using NavigatorApplication.Service.Repository;
@@ -38,14 +41,24 @@
             return feedRepository.Get(id);
         }
 
-        public void Post(Model.Feed feed)
+        public async Task<HttpResponseMessage> Post(Model.Feed feed)
         {
-            if(feed != null)
-            {
-                Session.StoreAsync(feed);
-                Session.SaveChangesAsync();
-            }            
+            await Session.StoreAsync(feed);
+            return new HttpResponseMessage(HttpStatusCode.Created);
         }
+
+
+
+
+
+        //public async Post(Model.Feed feed)
+        //{
+        //    if(feed != null)
+        //    {
+        //        Session.StoreAsync(feed);
+        //        Session.SaveChangesAsync();
+        //    }            
+        //}
 
 
         public void Put(int id, string value)
