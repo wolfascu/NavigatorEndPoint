@@ -16,5 +16,10 @@
         {
             return flickr.PushGetTopics();
         }
+
+        public SubscriptionCollection GetSubscriptions()
+        {
+            return flickr.PushGetSubscriptions();
+        }
     }
 }

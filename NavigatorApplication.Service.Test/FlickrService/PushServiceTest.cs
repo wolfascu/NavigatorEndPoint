@@ -1,4 +1,6 @@
-﻿namespace NavigatorApplication.Service.Test.FlickrService
+﻿using FlickrNet;
+
+namespace NavigatorApplication.Service.Test.FlickrService
 {
     using Microsoft.Practices.Unity;
 
@@ -33,26 +35,54 @@
         }
 
         [Test]
+        public void Can_Get_List_of_Subscriptions()
+        {
+            var topics = pushService.GetSubscriptions();
+            foreach (var topic in topics)
+            {
+                Console.WriteLine(topic.Topic + " " + topic.Callback);
+            }
+        }
+
+        [Test]
         public void Can_Subscribe_UnSubscribe()
         {
-            var callback = "http://www.wackylabs.net/dev/push/test.php";
-            var topic = "contacts_photos";
+            var callback = "http://tuanmh.no-ip.biz/flickratom/api/AtomEndpoint";
+            var topic = "my_photos";
             var lease = 0;
             var verify = "sync";
 
-            //TODO: Need to setup Authentication 
-            //See: http://flickrnet.codeplex.com/SourceControl/latest#FlickrNetTest/PushTests.cs
-            var f = FlickrHelpers.GetAuthInstance();
-            
+            var f = new Flickr();
             f.PushSubscribe(topic, callback, verify, null, lease, null, null, 0, 0, 0, FlickrNet.RadiusUnit.None, FlickrNet.GeoAccuracy.None, null, null);
 
-            Assert.Fail("TODO");
+            var subscriptions = f.PushGetSubscriptions();
+
+            bool found = false;
+
+            foreach (var sub in subscriptions)
+            {
+                if (sub.Topic == topic && sub.Callback == callback)
+                {
+                    found = true;
+                    break;
+                }
+            }
+
+            Assert.IsTrue(found, "Should have found subscription.");
+
+            f.PushUnsubscribe(topic, callback, verify, null);
         }
 
 
         public void Test()
         {
-            
+            var f = new Flickr();
+            //var frog = f.AuthGetFrob();
+            //Console.WriteLine(frog);
+            //f.AuthCalcUrlMobile(frog, AuthLevel.Delete);
+            var token = f.AuthGetToken("72157634849262138-12c5eb8e23fc53d0-205197").Token;
+            Console.WriteLine(token);
+            //System.Diagnostics.Process.Start(f.AuthCalcUrlMobile(frog, AuthLevel.Delete));
         }
 
 
