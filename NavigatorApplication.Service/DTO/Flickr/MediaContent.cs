@@ -1,10 +1,7 @@
-﻿using System.Xml.Serialization;
-
-namespace NavigatorApplication.Service.DTO.Flickr
+﻿namespace NavigatorApplication.Service.DTO.Flickr
 {
-    /// <summary>
-    /// Represents Content in media namespace in flicker feed 
-    /// </summary>
+    using System.Xml.Serialization;
+    
     public class MediaContent
     {
         [XmlAttribute("url")]

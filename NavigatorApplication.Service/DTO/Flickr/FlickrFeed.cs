@@ -6,11 +6,8 @@ using NavigatorApplication.Service.DTO.Flickr.Interface;
 
 namespace NavigatorApplication.Service.DTO.Flickr
 {
-    /// <summary>
-    /// Represents Root response which is sent by Flicker to API
-    /// </summary>
     [XmlRoot(ElementName = "feed", Namespace = XmlNamespaces.Feed)]
-    public class FlickerFeed : IFlickerFeed
+    public class FlickrFeed : IFlickrFeed
     {
         [XmlElement("title")]
         public string Title { get; set; }

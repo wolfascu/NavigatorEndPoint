@@ -17,9 +17,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{90D24B69-8C9
 		1374913695.xml = 1374913695.xml
 		XML\people07102013055734.xml = XML\people07102013055734.xml
 		people07102013060241.xml = people07102013060241.xml
+		XML\urnflickrfeed1374914055.xml = XML\urnflickrfeed1374914055.xml
 		E:\urnflickrfeed1374938000.xml = E:\urnflickrfeed1374938000.xml
+		XML\urnflickrfeed1374938000.xml = XML\urnflickrfeed1374938000.xml
 		E:\urnflickrfeed1374938049.xml = E:\urnflickrfeed1374938049.xml
+		XML\urnflickrfeed1374938049.xml = XML\urnflickrfeed1374938049.xml
 		E:\urnflickrfeed1374938104.xml = E:\urnflickrfeed1374938104.xml
+		XML\urnflickrfeed1374938104.xml = XML\urnflickrfeed1374938104.xml
+		XML\urnflickrfeed1374938238.xml = XML\urnflickrfeed1374938238.xml
+		XML\urnflickrfeed1374938380.xml = XML\urnflickrfeed1374938380.xml
+		XML\urnflickrfeed1374938747.xml = XML\urnflickrfeed1374938747.xml
+		XML\urnflickrfeed1374938918.xml = XML\urnflickrfeed1374938918.xml
+		XML\urnflickrfeed1374939446.xml = XML\urnflickrfeed1374939446.xml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigatorApplication.Infrastructure.WebApi", "NavigatorApplication.Infrastructure.WebApi\NavigatorApplication.Infrastructure.WebApi.csproj", "{16E8E497-A6E5-4EB2-A6C1-DD1B07A557CB}"

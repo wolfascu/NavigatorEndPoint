@@ -2,9 +2,6 @@
 
 namespace NavigatorApplication.Service.DTO.Flickr
 {
-    /// <summary>
-    /// Represents the Content field in flicker feed
-    /// </summary>
     public class Content
     {
         [XmlAttribute("type")]

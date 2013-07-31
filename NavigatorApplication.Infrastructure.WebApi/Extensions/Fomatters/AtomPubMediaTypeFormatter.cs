@@ -4,14 +4,9 @@ using System.Net.Http;
 using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
 using System.ServiceModel.Syndication;
-using System.Text;
 using System.Xml;
-using System.Xml.Linq;
 using NavigatorApplication.Common.Helpers;
-using NavigatorApplication.Service.DTO.AtomPub;
 using NavigatorApplication.Infrastructure.WebApi.Model;
-using Raven.Client;
-using Raven.Client.Document;
 
 namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
 {

@@ -10,12 +10,12 @@
     {
         private readonly IFeedRepository feedRepository;
 
-        public Task<FlickerFeed> Get(string id)
+        public Task<FlickrFeed> Get(string id)
         {
-            return Session.LoadAsync<FlickerFeed>(id);
+            return Session.LoadAsync<FlickrFeed>(id);
         }
 
-        public async Task<HttpResponseMessage> Post(FlickerFeed flickerFeed)
+        public async Task<HttpResponseMessage> Post(FlickrFeed flickerFeed)
         {
             await Session.StoreAsync(flickerFeed);
             return new HttpResponseMessage(HttpStatusCode.Created);

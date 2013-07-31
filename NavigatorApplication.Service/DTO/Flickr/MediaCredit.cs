@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
-
-namespace FlickerAPI.Common.FlickerModels
+﻿namespace NavigatorApplication.Service.DTO.Flickr
 {
-    /// <summary>
-    /// Represents Credit field in Media namespace in Flicker Feed
-    /// </summary>
+    using System.Xml.Serialization;
+
     public class MediaCredit
     {
         [XmlAttribute("role")]

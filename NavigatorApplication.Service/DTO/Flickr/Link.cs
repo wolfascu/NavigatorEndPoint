@@ -1,10 +1,7 @@
-﻿using System.Xml.Serialization;
-
-namespace NavigatorApplication.Service.DTO.Flickr
+﻿namespace NavigatorApplication.Service.DTO.Flickr
 {
-    /// <summary>
-    /// Represents Media Link 
-    /// </summary>
+    using System.Xml.Serialization;
+
     public class Link
     {
         [XmlAttribute("rel")]

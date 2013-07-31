@@ -56,9 +56,9 @@
     <Compile Include="DTO\Flickr\Constant\XmlNamespaces.cs" />
     <Compile Include="DTO\Flickr\Content.cs" />
     <Compile Include="DTO\Flickr\FeedEntry.cs" />
-    <Compile Include="DTO\Flickr\FlickerFeed.cs" />
+    <Compile Include="DTO\Flickr\FlickrFeed.cs" />
     <Compile Include="DTO\Flickr\FlickerUpdate.cs" />
-    <Compile Include="DTO\Flickr\Interface\IFlickerFeed.cs" />
+    <Compile Include="DTO\Flickr\Interface\IFlickrFeed.cs" />
     <Compile Include="DTO\Flickr\Link.cs" />
     <Compile Include="DTO\Flickr\MediaContent.cs" />
     <Compile Include="DTO\Flickr\MediaCredit.cs" />
@@ -84,6 +84,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Diagram\FlickrAtom.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

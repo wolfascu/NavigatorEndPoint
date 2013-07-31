@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Xml.Serialization;
-using FlickerAPI.Common.FlickerModels;
-using NavigatorApplication.Service.DTO.Flickr.Constant;
-
-namespace NavigatorApplication.Service.DTO.Flickr
+﻿namespace NavigatorApplication.Service.DTO.Flickr
 {
-    /// <summary>
-    /// Represents Feed Entry element
-    /// </summary>
+    using System;
+    using System.Collections.Generic;
+    using System.Xml.Serialization;
+    using NavigatorApplication.Service.DTO.Flickr.Constant;
+
     public class FeedEntry
     {
         [XmlElement("title")]
@@ -48,7 +44,7 @@ namespace NavigatorApplication.Service.DTO.Flickr
         public string Safety { get; set; }
 
         [XmlElement(ElementName = "update", Namespace = XmlNamespaces.Flickr)]
-        public List<FlickerUpdate> Updates { get; set; }
+        public List<FlickrUpdate> Updates { get; set; }
 
 
         [XmlElement(ElementName = "title", Namespace = XmlNamespaces.Media)]

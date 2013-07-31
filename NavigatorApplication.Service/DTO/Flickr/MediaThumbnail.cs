@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
-
-namespace FlickerAPI.Common.FlickerModels
+﻿namespace NavigatorApplication.Service.DTO.Flickr
 {
-    /// <summary>
-    /// Represents thumbnail field in media namespace in flicker feed
-    /// </summary>
+    using System.Xml.Serialization;
+
     public class MediaThumbnail
     {
         [XmlAttribute("url")]

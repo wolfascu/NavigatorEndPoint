@@ -1,11 +1,8 @@
-﻿using System.Xml.Serialization;
-using NavigatorApplication.Service.DTO.Flickr.Constant;
-
-namespace NavigatorApplication.Service.DTO.Flickr
+﻿namespace NavigatorApplication.Service.DTO.Flickr
 {
-    /// <summary>
-    /// Represents auther information in flicker feed
-    /// </summary>
+    using System.Xml.Serialization;
+    using NavigatorApplication.Service.DTO.Flickr.Constant;
+
     public class Author
     {
         [XmlElement("name")]
