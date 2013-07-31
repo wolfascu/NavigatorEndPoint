@@ -16,7 +16,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 
         private IDocumentSession _session;
 
-        public AtomEndpointController(IFeedRepository urlRepository)
+        public AtomEndpointController(IFeedRepository feedRepository)
         {
             //this.feedRepository = urlRepository;
 

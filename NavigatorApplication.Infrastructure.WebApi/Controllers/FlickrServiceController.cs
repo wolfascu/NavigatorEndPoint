@@ -1,11 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
-    public class FlickrServiceController
+    using System.Net;
+    using System.Net.Http;
+    using System.Threading.Tasks;
+    using NavigatorApplication.Service.DTO.Flickr;
+    using NavigatorApplication.Service.Repository; 
+
+    public class FlickrServiceController : RavenController
     {
+        private readonly IFeedRepository feedRepository;
+
+        public Task<FlickerFeed> Get(string id)
+        {
+            return Session.LoadAsync<FlickerFeed>(id);
+        }
+
+        public async Task<HttpResponseMessage> Post(FlickerFeed flickerFeed)
+        {
+            await Session.StoreAsync(flickerFeed);
+            return new HttpResponseMessage(HttpStatusCode.Created);
+        }
     }
 }

@@ -147,6 +147,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\Bootstrapper.cs" />
     <Compile Include="Controllers\AtomEndpointController.cs" />
+    <Compile Include="Controllers\FlickrServiceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RavenController.cs" />
     <Compile Include="Controllers\DefaultApiController.cs" />

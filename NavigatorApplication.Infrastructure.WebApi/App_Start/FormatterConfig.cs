@@ -9,7 +9,7 @@
         {
             formatters.Remove(formatters.XmlFormatter);
 
-            formatters.Add(new AtomPubMediaFormatter());
+           // formatters.Add(new AtomPubMediaFormatter());
             formatters.Add(new FlickerFeedMediaFormatter());
         }
     }
