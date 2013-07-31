@@ -1,43 +1,54 @@
 ﻿@{
-    ViewBag.Title = "Test";
+    ViewBag.Title = "Flickr Atom/RSS";
 }
 
-<div>
-    <table>
-        <tr>
-            <td>URL</td>
-            <td>
-                <input id="url" value="/api/FlickrService" /></td>
-        </tr>
-        <tr>
-            <td>Method</td>
-            <td>
-                <select id="method">
-                    <option value="POST">Post</option>
-                    <option value="GET">Get</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Request XML Data</td>
-            <td>
-                <textarea id="content"> </textarea></td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <input type="button" id="submit" value="Send" /></td>
-        </tr>
-    </table>
+@*http://bootsnipp.com/snipps/compact-contact-form*@
+
+<form class="well span8">
+  <div class="row">
+      <div class="span3">
+          <label>URL</label>
+          <input id="url" type="text" class="span3" name="url" placeholder="URL" value="/api/FlickrService" />
+          
+          <label>Content Type</label>
+          <input type="text" class="span3" placeholder="Content Type">
+
+          <label>Action</label>
+          <select class="span3" name="method" id="method">
+              <option value="POST">Post</option>
+              <option value="GET">Get</option>
+          </select>
+      </div>    
+    <div class="span5">
+       <label>Request Body</label> 
+       <textarea id="content" class="input-xlarge span5" rows="10"></textarea>
+
+       <input type="button" id="submit" value="Send" />  
+    </div>    
+
+</div>
+</form>
+
     <h5>Response</h5>
     <p id="response" style="white-space:pre"></p>
+
+<div class="well span8" style="color: red;">
+    <pre>
+       Input Form  
+       - Proper Status Message should be displayed
+       - Add Clear Button
+        XML 
+       - Remove namespace from Id urn:flickr:feed:1373428650 => 1373428650
+       Output
+         Get should return XML 
+       Documentation
+        Create Class Diagram =>  FlickrAtom.cd (Service Project)
+    </pre> 
 </div>
-
-
 
 
 @section scripts
 {
-    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
     <script type="text/javascript">
         $("#submit").bind("click", function () {
             $("#response").text("Loading...");

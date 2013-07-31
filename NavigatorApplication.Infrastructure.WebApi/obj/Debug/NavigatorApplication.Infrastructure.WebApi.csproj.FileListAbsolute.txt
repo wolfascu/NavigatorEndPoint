@@ -50,3 +50,4 @@ D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.dll
 D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\obj\Debug\NavigatorApplication.Infrastructure.WebApi.pdb
+D:\Documents\GitHub\NavigatorEndPoint\NavigatorApplication.Infrastructure.WebApi\bin\Antlr3.Runtime.pdb
