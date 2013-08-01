@@ -10,6 +10,11 @@
     {
         private readonly IFeedRepository feedRepository;
 
+        //FlickrServiceController(IFeedRepository feedRepository)
+        //{
+        //    this.feedRepository = feedRepository;
+        //}
+
         public Task<FlickrFeed> Get(string id)
         {
             return Session.LoadAsync<FlickrFeed>(id);

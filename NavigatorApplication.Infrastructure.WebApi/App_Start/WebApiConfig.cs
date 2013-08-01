@@ -1,7 +1,9 @@
 ﻿namespace NavigatorApplication.Infrastructure.WebApi.App_Start
 {
     using System.Web.Http;
-   
+    using System.Web.Http.Tracing;
+    using NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing;
+
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
@@ -19,6 +21,10 @@
 
             // Filters
             //config.Filters.Add(new ValidateModelStateAttribute());
+
+
+            //Trace 
+            config.Services.Replace(typeof(ITraceWriter), new SimpleTracer());
 
             // Routes
             config.Routes.MapHttpRoute(

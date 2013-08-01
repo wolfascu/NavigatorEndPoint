@@ -163,8 +163,6 @@
     <Compile Include="Extensions\Handler\WLWMessageHandler.cs" />
     <Compile Include="Extensions\HttpConfigurationExtensions.cs" />
     <Compile Include="Extensions\IResponseEnricher.cs" />
-    <Compile Include="Extensions\Registry\EntryProfile.cs" />
-    <Compile Include="Extensions\Registry\FeedProfile.cs" />
     <Compile Include="Extensions\Tracing\SimpleTracer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

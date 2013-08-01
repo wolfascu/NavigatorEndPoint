@@ -16,8 +16,7 @@
 
         protected void WriteTrace(TraceRecord rec)
         {
-            var message = string.Format("{0};{1};{2}",rec.Operator, rec.Operation, rec.Message);
-            
+            var message = string.Format("{0};{1};{2}", rec.Operator, rec.Operation, rec.Message);
             System.Diagnostics.Trace.WriteLine(message, rec.Category);
         }
     }
