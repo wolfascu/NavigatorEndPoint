@@ -1,9 +1,5 @@
 ﻿namespace NavigatorApplication.Infrastructure.WebApi.App_Start
 {
-    using AutoMapper;
-    using NavigatorApplication.Infrastructure.WebApi.Extensions.Registry;
-    
-    using NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters;
     using System.Web.Http;
    
     public static class WebApiConfig
@@ -31,14 +27,7 @@
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            Mapper.Reset();
-            Mapper.Initialize(x =>
-            {
-                x.AddProfile<FeedProfile>();
-              
-            });
-
-            Mapper.AssertConfigurationIsValid();
+           
         }
 
 

@@ -32,11 +32,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.2.2.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="FlickrNet">
       <HintPath>..\packages\FlickrNet.3.5.0\lib\net20\FlickrNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -74,6 +78,9 @@
     <Compile Include="DTO\Links\PreviousLink.cs" />
     <Compile Include="DTO\Links\RelatedLink.cs" />
     <Compile Include="DTO\Links\SelfLink.cs" />
+    <Compile Include="Registry\AutomapperRegistry.cs" />
+    <Compile Include="Registry\EntryProfile.cs" />
+    <Compile Include="Registry\FeedProfile.cs" />
     <Compile Include="Repository\IFeedRepository.cs" />
     <Compile Include="DTO\Feed.cs" />
     <Compile Include="Repository\FeedRepository.cs" />

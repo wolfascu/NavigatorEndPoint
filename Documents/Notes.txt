@@ -12,3 +12,6 @@ http://ben.onfabrik.com/posts/atompub-aspnet-web-api-part1
 
 
 http://himanshudesai.wordpress.com/2013/02/19/web-api-introduction-to-systemdiagnosticstracewriter/
+
+
+WebApiContrib/WebApiContrib.Tracing.Log4Net 
