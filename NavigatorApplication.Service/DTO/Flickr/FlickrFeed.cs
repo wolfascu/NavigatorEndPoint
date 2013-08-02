@@ -9,11 +9,11 @@ namespace NavigatorApplication.Service.DTO.Flickr
     [XmlRoot(ElementName = "feed", Namespace = XmlNamespaces.Feed)]
     public class FlickrFeed : IFlickrFeed
     {
+        [XmlElement(ElementName = "id")]
+        public string Id { get; set; }
+        
         [XmlElement("title")]
         public string Title { get; set; }
-
-        [XmlElement("id")]
-        public string Id { get; set; }
 
         [XmlElement("updated")]
         public DateTime UpdatedDate { get; set; }

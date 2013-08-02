@@ -15,9 +15,9 @@
         //    this.feedRepository = feedRepository;
         //}
 
-        public Task<FlickrFeed> Get(string id)
+        public async Task<FlickrFeed> Get(string id)
         {
-            return Session.LoadAsync<FlickrFeed>(id);
+            return await Session.LoadAsync<FlickrFeed>(id);
         }
 
         public async Task<HttpResponseMessage> Post(FlickrFeed flickerFeed)
