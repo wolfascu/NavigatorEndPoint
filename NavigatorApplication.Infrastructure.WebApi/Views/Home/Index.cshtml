@@ -21,21 +21,35 @@
       </div>    
     <div class="span5">
        <label>Request Body</label> 
-       <textarea id="content" class="input-xlarge span5" rows="10"></textarea>
-
-       <input type="button" id="submit" value="Send" />  
+        <textarea id="content" class="input-xlarge span5" rows="10"></textarea>
+        <div class="btn-group pull-right">
+            <input type="button" id="submit" class="btn btn-primary" value="Send" /> 
+            <input type="button" id="reset"  class="btn btn-primary" value="Reset" />   
+        </div>
     </div>    
 
 </div>
 </form>
 
-    <h5>Response</h5>
-    <p id="response" style="white-space:pre"></p>
+<div class="well span8">
+    <div class="row">
+      <div class="span8">
+         Status:<span id="status"></span>
+    </div>
+    </div>  
+</div>
+
+
+
+
+
+
+
+
 
 <div class="well span8" style="color: red;">
     <pre>
        Input Form  
-       - Proper Status Message should be displayed
        - Add Clear Button
         XML 
        - Remove namespace from Id urn:flickr:feed:1373428650 => 1373428650
@@ -45,6 +59,10 @@
         Create Class Diagram =>  FlickrAtom.cd (Service Project)
     </pre> 
 </div>
+
+
+
+
 
 
 @section scripts
@@ -58,9 +76,14 @@
                 contentType: "text/xml",
                 data: $("#content").val(),
                 success: function (data, textStatus, xhr) {
-                    $("#response").text(data);
+                    $("#status").text(xhr.status);
                 }
             });
+        });
+        
+        $("#reset").bind("click", function () {
+            $('#content').val('');
+            $('#status').text('');
         });
     </script>
 }
