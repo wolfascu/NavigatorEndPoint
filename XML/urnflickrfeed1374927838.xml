@@ -1,0 +1,17 @@
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+      xmlns:georss="http://www.georss.org/georss"
+      xmlns:woe="http://where.yahooapis.com/v1/schema.rng"
+      xmlns:flickr="urn:flickr:feed"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns:at="http://purl.org/atompub/tombstones/1.0">
+  <title>Flickr Push Feed</title>
+  <id>urn:flickr:feed:1374927838</id>
+  <updated>2013-07-27T12:23:58Z</updated>  <at:deleted-entry
+    ref="tag:flickr.com,2005:/photo/6155733921"
+    when="2013-07-27T12:23:58Z">
+    <link href="http://www.flickr.com/photos/67699936@N08/6155733921/"/>
+  </at:deleted-entry>
+
+</feed>
