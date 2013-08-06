@@ -15,15 +15,31 @@
         //    this.feedRepository = feedRepository;
         //}
 
-        public async Task<FlickrFeed> Get(string id)
+        public async Task<FlickrSaveFeed> Get(string id)
         {
-            return await Session.LoadAsync<FlickrFeed>(id);
+            return await Session.LoadAsync<FlickrSaveFeed>(id);
         }
 
-        public async Task<HttpResponseMessage> Post(FlickrFeed flickerFeed)
+        public async Task<HttpResponseMessage> Post(FlickrSaveFeed flickrFeed)
         {
-            await Session.StoreAsync(flickerFeed);
+            await Session.StoreAsync(flickrFeed);
             return new HttpResponseMessage(HttpStatusCode.Created);
+        }
+
+        public async Task<HttpResponseMessage> Delete(FlickrDeleteFeed flickrFeed)
+        {
+            HttpResponseMessage response;
+            FlickrFeed feedToDelete = await Session.LoadAsync<FlickrFeed>(flickrFeed.Id);
+            if (feedToDelete != null)
+            {
+                Session.Delete<FlickrFeed>(feedToDelete);
+                response = new HttpResponseMessage(HttpStatusCode.Accepted);
+            }
+            else
+            {
+                response = new HttpResponseMessage(HttpStatusCode.Conflict);
+            }
+            return response;
         }
     }
 }
