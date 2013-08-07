@@ -28,7 +28,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Handler
             log4net.ThreadContext.Properties["UriAccessed"] = info.UriAccessed;
             log4net.ThreadContext.Properties["IpAddress"] = info.IpAddress;
             log4net.ThreadContext.Properties["BodyContent"] = info.BodyContent;
-
+            _Log.Info(string.Empty);
             return base.SendAsync(request, cancellationToken);
         }
 
