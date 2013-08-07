@@ -25,10 +25,10 @@ namespace NavigatorApplication.Infrastructure.WebApi.App_Start
             //config.Filters.Add(new ValidateModelStateAttribute());
 
             //Handler
-            config.MessageHandlers.Add(new LogHandler());
+            //config.MessageHandlers.Add(new LogHandler());
 
             //Trace 
-            config.Services.Replace(typeof(ITraceWriter), new SimpleTracer());
+            config.Services.Replace(typeof(ITraceWriter), new Log4NetTraceWriter());
 
             // Routes
             config.Routes.MapHttpRoute(
