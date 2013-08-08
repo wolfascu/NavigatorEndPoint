@@ -24,9 +24,6 @@ namespace NavigatorApplication.Infrastructure.WebApi.App_Start
             // Filters
             //config.Filters.Add(new ValidateModelStateAttribute());
 
-            //Handler
-            //config.MessageHandlers.Add(new LogHandler());
-
             //Trace 
             config.Services.Replace(typeof(ITraceWriter), new Log4NetTraceWriter());
 

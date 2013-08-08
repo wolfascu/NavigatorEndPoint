@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Web;
@@ -23,6 +23,10 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
             if (level == TraceLevel.Off)
                 return;
 
+            if (!string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["LogCategory"]) &&
+                category != ConfigurationManager.AppSettings["LogCategory"])
+                return;
+
             var record = new TraceRecord(request, category, level);
             traceAction(record);
             Log(record);
@@ -36,20 +40,22 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
         private void Log(TraceRecord record)
         {
             var message = new StringBuilder();
-            var info = ExtractLoggingInfoFromRequest(record.Request, new HttpContextWrapper(HttpContext.Current));
+
+
+            if (!string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["IsPipelineLogged"]) &&
+                                    ConfigurationManager.AppSettings["IsPipelineLogged"] == "true" &&
+                                            record.Kind != TraceKind.Begin)
+                return;
             if (record.Request != null)
             {
-                //if (record.Request.Method != null)
-                //    message.Append(" ").Append(record.Request.Method.Method);
-                
-                //if (record.Request.RequestUri != null)
-                //    message.Append(" ").Append(record.Request.RequestUri.AbsoluteUri);
+                var info = ExtractLoggingInfoFromRequest(record.Request, new HttpContextWrapper(HttpContext.Current));
 
-                ThreadContext.Properties["HttpMethod"] = info.HttpMethod;
-                ThreadContext.Properties["Headers"] = info.Headers;
-                ThreadContext.Properties["UriAccessed"] = info.UriAccessed;
-                ThreadContext.Properties["IpAddress"] = info.IpAddress;
-                ThreadContext.Properties["BodyContent"] = info.BodyContent;
+                   ThreadContext.Properties["HttpMethod"] = info.HttpMethod;
+                    ThreadContext.Properties["Headers"] = info.Headers;
+                    ThreadContext.Properties["UriAccessed"] = info.UriAccessed;
+                    ThreadContext.Properties["IpAddress"] = info.IpAddress;
+                    ThreadContext.Properties["BodyContent"] = info.BodyContent;
+
             }
 
             if (!string.IsNullOrWhiteSpace(record.Category))
@@ -81,10 +87,12 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
 
         private ApiLoggingInfo ExtractLoggingInfoFromRequest(HttpRequestMessage request, HttpContextWrapper context)
         {
-            var info = new ApiLoggingInfo();
-            info.HttpMethod = request.Method.Method;
-            info.UriAccessed = request.RequestUri.AbsoluteUri;
-            info.IpAddress = HttpContext.Current != null ? HttpContext.Current.Request.UserHostAddress : "0.0.0.0";
+            var info = new ApiLoggingInfo
+            {
+                HttpMethod = request.Method.Method,
+                UriAccessed = request.RequestUri.AbsoluteUri,
+                IpAddress = HttpContext.Current != null ? HttpContext.Current.Request.UserHostAddress : "0.0.0.0"
+            };
 
             HttpRequestBase req = context.Request;
             var inputStream = req.InputStream;
