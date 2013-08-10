@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Http.Tracing;
 using log4net;
 using NavigatorApplication.Infrastructure.WebApi.Model;
+using NavigatorApplication.Infrastructure.WebApi.Utils;
 
 namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
 {
@@ -23,8 +24,8 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
             if (level == TraceLevel.Off)
                 return;
 
-            if (!string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["LogCategory"]) &&
-                category != ConfigurationManager.AppSettings["LogCategory"])
+            if (!string.IsNullOrWhiteSpace(GlobalConstants.LogCategory) &&
+                category != GlobalConstants.LogCategory)
                 return;
 
             var record = new TraceRecord(request, category, level);
@@ -42,15 +43,14 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
             var message = new StringBuilder();
 
 
-            if (!string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["IsPipelineLogged"]) &&
-                                    ConfigurationManager.AppSettings["IsPipelineLogged"] == "true" &&
-                                            record.Kind != TraceKind.Begin)
+            if (GlobalConstants.IsPipelineLogged && record.Kind != TraceKind.Begin)
                 return;
+            
             if (record.Request != null)
             {
                 var info = ExtractLoggingInfoFromRequest(record.Request, new HttpContextWrapper(HttpContext.Current));
 
-                   ThreadContext.Properties["HttpMethod"] = info.HttpMethod;
+                    ThreadContext.Properties["HttpMethod"] = info.HttpMethod;
                     ThreadContext.Properties["Headers"] = info.Headers;
                     ThreadContext.Properties["UriAccessed"] = info.UriAccessed;
                     ThreadContext.Properties["IpAddress"] = info.IpAddress;
