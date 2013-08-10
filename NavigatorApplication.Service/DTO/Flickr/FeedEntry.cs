@@ -25,6 +25,9 @@
         [XmlElement("author")]
         public Author Author { get; set; }
 
+        [XmlElement("category")]
+        public List<Category> Categories { get; set; }
+
         [XmlElement(ElementName = "woeid", Namespace = XmlNamespaces.Woe)]
         public string WoeId { get; set; }
 

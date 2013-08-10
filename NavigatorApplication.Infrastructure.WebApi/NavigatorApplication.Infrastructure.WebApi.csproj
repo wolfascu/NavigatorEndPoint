@@ -159,10 +159,6 @@
     <Compile Include="Extensions\Fomatters\AtomPubMediaTypeFormatter.cs" />
     <Compile Include="Extensions\Fomatters\FlickerFeedMediaFormatter.cs" />
     <Compile Include="Extensions\Fomatters\IFeedParser.cs" />
-    <Compile Include="Extensions\Handler\EnrichingHandler.cs" />
-    <Compile Include="Extensions\Handler\WLWMessageHandler.cs" />
-    <Compile Include="Extensions\HttpConfigurationExtensions.cs" />
-    <Compile Include="Extensions\IResponseEnricher.cs" />
     <Compile Include="Extensions\Tracing\SimpleTracer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -227,6 +223,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\Handler\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

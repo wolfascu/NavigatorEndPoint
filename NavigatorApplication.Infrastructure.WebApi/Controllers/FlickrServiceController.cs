@@ -17,10 +17,10 @@
 
         public async Task<FlickrFeed> Get(string id)
         {
-            return await Session.LoadAsync<FlickrFeed>(id);
+            return await Session.LoadAsync<FlickrSaveFeed>(id);
         }
 
-        public async Task<HttpResponseMessage> Post(FlickrFeed flickerFeed)
+        public async Task<HttpResponseMessage> Post(FlickrSaveFeed flickerFeed)
         {
             await Session.StoreAsync(flickerFeed);
             return new HttpResponseMessage(HttpStatusCode.Created);
