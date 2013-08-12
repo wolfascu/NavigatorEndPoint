@@ -2,32 +2,30 @@
 {
     using System;
     using System.Net.Http.Formatting;
+    using System.Net.Http.Headers;
+
     using NavigatorApplication.Service.DTO.Flickr.Interface;
 
-    /// <summary>
-    /// Media Formatter responsible to format the Flciker Feed Media
-    /// </summary>
     public class FlickerFeedMediaFormatter : XmlMediaTypeFormatter
     {
-        public FlickerFeedMediaFormatter() : base()
+        private const string AtomMediaType = "application/atom+xml";
+        
+        public FlickerFeedMediaFormatter()
         {
             //TODO: Using Flickr Namespace  Remove
             this.UseXmlSerializer = true;
+
+            //TODO: Determine Content Type Header
+           //SupportedMediaTypes.Add(new MediaTypeHeaderValue(AtomMediaType));
         }
 
         public override bool CanReadType(Type type)
         {
-            /* Will Handle the model only which are inheritted from Feed Interface.
-             * It will avoid problems while this Formatter will be integrated to other projects
-             * */
             return typeof(IFlickrFeed).IsAssignableFrom(type);
         }
 
         public override bool CanWriteType(Type type)
         {
-            /* Will Handle the object formatting for objects which are inheritted from Feed Interface.
-             * It will avoid problems while this Formatter will be integrated to other projects
-             * */
             return typeof(IFlickrFeed).IsAssignableFrom(type);
         }
     }
