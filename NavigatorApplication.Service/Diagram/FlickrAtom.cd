@@ -29,7 +29,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="NavigatorApplication.Service.DTO.Flickr.DeletedEntry">
-    <Position X="8.75" Y="3.25" Width="1.5" />
+    <Position X="9.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>DTO\Flickr\DeletedEntry.cs</FileName>
@@ -45,15 +45,15 @@
       <FileName>DTO\Flickr\FeedEntry.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Author" />
       <Property Name="Content" />
-      <Property Name="MediaContent" />
+      <Property Name="Author" />
       <Property Name="MediaCredit" />
+      <Property Name="MediaContent" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Categories" />
-      <Property Name="MediaThumbnails" />
       <Property Name="Updates" />
+      <Property Name="MediaThumbnails" />
       <Property Name="Links" />
     </ShowAsCollectionAssociation>
   </Class>
@@ -64,36 +64,22 @@
       <FileName>DTO\Flickr\FlickerUpdate.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NavigatorApplication.Service.DTO.Flickr.FlickrDeleteFeed" Collapsed="true">
-    <Position X="8.25" Y="2" Width="1.5" />
+  <Class Name="NavigatorApplication.Service.DTO.Flickr.FlickrFeed">
+    <Position X="7.5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DTO\Flickr\FlickrDeleteFeed.cs</FileName>
+      <HashCode>AAACAAAAEAAAAGAAAAAAAAgAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DTO\Flickr\FlickrFeed.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="DeletedEntry" />
     </ShowAsAssociation>
-  </Class>
-  <Class Name="NavigatorApplication.Service.DTO.Flickr.FlickrFeed" Collapsed="true">
-    <Position X="7" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
-      <FileName>DTO\Flickr\FlickrFeed.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="NavigatorApplication.Service.DTO.Flickr.FlickrSaveFeed" Collapsed="true">
-    <Position X="5.75" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DTO\Flickr\FlickrSaveFeed.cs</FileName>
-    </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Property Name="Entries" />
     </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="NavigatorApplication.Service.DTO.Flickr.Link" Collapsed="true">
-    <Position X="7.25" Y="5.25" Width="1.5" />
+    <Position X="7.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAQAAAAAAAAA=</HashCode>
       <FileName>DTO\Flickr\Link.cs</FileName>

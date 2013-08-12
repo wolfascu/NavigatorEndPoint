@@ -39,5 +39,11 @@ namespace NavigatorApplication.Service.DTO.Flickr
 
         [XmlElement("updated")]
         public DateTime UpdatedDate { get; set; }
+
+        [XmlElement("entry")]
+        public List<FeedEntry> Entries { get; set; }
+
+        [XmlElement(ElementName = "deleted-entry", Namespace = XmlNamespaces.At)]
+        public DeletedEntry DeletedEntry { get; set; }
     }
 }
