@@ -157,10 +157,13 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RavenController.cs" />
     <Compile Include="Controllers\DefaultApiController.cs" />
+    <Compile Include="Extensions\Constants\LoggingConstants.cs" />
     <Compile Include="Extensions\Fomatters\AtomExtensions.cs" />
     <Compile Include="Extensions\Fomatters\AtomPubCategoryMediaTypeFormatter.cs" />
     <Compile Include="Extensions\Fomatters\AtomPubMediaTypeFormatter.cs" />
     <Compile Include="Extensions\Fomatters\FlickerFeedMediaFormatter.cs" />
+    <Compile Include="Extensions\Tracing\Log4NetTraceWriter.cs" />
+    <Compile Include="Extensions\Tracing\Model\ApiLoggingInfo.cs" />
     <Compile Include="Extensions\Tracing\SimpleTracer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
