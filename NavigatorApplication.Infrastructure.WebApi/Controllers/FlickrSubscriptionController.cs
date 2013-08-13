@@ -9,11 +9,11 @@ using log4net;
 
 namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
-    public class FlickrSubscribeController : ApiController
+    public class FlickrSubscriptionController : ApiController
     {
         //
         // GET: /FlickrSubscribe/
-        private static readonly ILog logger = LogManager.GetLogger(typeof (FlickrSubscribeController));
+        private static readonly ILog logger = LogManager.GetLogger(typeof (FlickrSubscriptionController));
         
         public HttpResponseMessage Get()
         {
