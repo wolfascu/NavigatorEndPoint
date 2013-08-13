@@ -25,7 +25,7 @@
 
             //Trace 
             //config.Services.Replace(typeof(ITraceWriter), new SimpleTracer());
-            config.Services.Replace(typeof(ITraceWriter), new Log4NetTraceWriter());
+            //config.Services.Replace(typeof(ITraceWriter), new Log4NetTraceWriter());
 
             // Routes
             config.Routes.MapHttpRoute(
