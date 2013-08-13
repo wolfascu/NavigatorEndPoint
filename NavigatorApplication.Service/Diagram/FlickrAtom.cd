@@ -31,7 +31,7 @@
   <Class Name="NavigatorApplication.Service.DTO.Flickr.DeletedEntry">
     <Position X="9.75" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <HashCode>IAAAAAAAACAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>DTO\Flickr\DeletedEntry.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
@@ -41,7 +41,7 @@
   <Class Name="NavigatorApplication.Service.DTO.Flickr.FeedEntry">
     <Position X="5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABCgAAAAkAAgEEAgAAIAAAAAQAAEAABCgAAAgIEAAA=</HashCode>
+      <HashCode>AABCgAAAAkAAgEEAgAAIAAAAAQAAEAABCgAAAgIEAQA=</HashCode>
       <FileName>DTO\Flickr\FeedEntry.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -67,7 +67,7 @@
   <Class Name="NavigatorApplication.Service.DTO.Flickr.FlickrFeed">
     <Position X="7.5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAEAAAAGAAAAAAAAgAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <HashCode>AAACAAAAEAAAAHAAAAAAQAgAAAAAAAAAAAAAAAIAAAA=</HashCode>
       <FileName>DTO\Flickr\FlickrFeed.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

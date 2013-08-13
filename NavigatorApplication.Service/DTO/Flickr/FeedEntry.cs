@@ -10,8 +10,24 @@
         [XmlElement("title")]
         public string Title { get; set; }
 
-        [XmlElement("id")]
-        public string Id { get; set; }
+        [XmlElement(ElementName = "id")]
+        public string EntryId { get; set; }
+
+        [XmlIgnore]
+        public string Id
+        {
+            get
+            {
+                EntryId = EntryId ?? "";
+                string[] IdElements = EntryId.Split(':');
+                return IdElements.Length > 2 ? IdElements[IdElements.Length - 1] : EntryId;
+            }
+            set
+            {
+                this.EntryId = value;
+            }
+        }
+
 
         [XmlElement("published")]
         public DateTime PublishedDate { get; set; }

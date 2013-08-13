@@ -9,8 +9,25 @@ namespace NavigatorApplication.Service.DTO.Flickr
 {
     public class DeletedEntry
     {
-        [XmlAttribute("ref")]
-        public string Ref { get; set; }
+
+        [XmlAttribute(AttributeName = "ref")]
+        public string EntryRef { get; set; }
+
+        [XmlIgnore]
+        public string Ref
+        {
+            get
+            {
+                EntryRef = EntryRef ?? "";
+                string[] refElements = EntryRef.Split(':');
+                return refElements.Length > 2 ? refElements[refElements.Length - 1] : EntryRef;
+            }
+            set
+            {
+                this.EntryRef = value;
+            }
+        }
+
 
         [XmlAttribute("when")]
         public DateTime When { get; set; }
