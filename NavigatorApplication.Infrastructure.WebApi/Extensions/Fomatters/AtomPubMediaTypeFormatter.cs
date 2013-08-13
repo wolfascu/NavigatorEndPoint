@@ -6,10 +6,11 @@ using System.Net.Http.Headers;
 using System.ServiceModel.Syndication;
 using System.Xml;
 using NavigatorApplication.Common.Helpers;
-using NavigatorApplication.Infrastructure.WebApi.Model;
+//using NavigatorApplication.Infrastructure.WebApi.Model;
 
 namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
 {
+    /*
     public class AtomPubMediaFormatter : BufferedMediaTypeFormatter
     {
         private const string AtomMediaType = "application/atom+xml";
@@ -27,8 +28,9 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
 
         public override bool CanWriteType(Type type)
         {
-            return /*type.Implements<IPublication>() || type.Implements<IPublicationFeed>();*/ true;
+            return /*type.Implements<IPublication>() || type.Implements<IPublicationFeed>(); true;
         }
+
 
         public override object ReadFromStream(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)
         {
@@ -77,4 +79,5 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Fomatters
             }
         }       
     }
+     */
 }

@@ -48,14 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\AtomPub\IPublication.cs" />
-    <Compile Include="DTO\AtomPub\IPublicationCategoriesDocument.cs" />
-    <Compile Include="DTO\AtomPub\IPublicationCategory.cs" />
-    <Compile Include="DTO\AtomPub\IPublicationCommand.cs" />
-    <Compile Include="DTO\AtomPub\IPublicationFeed.cs" />
-    <Compile Include="DTO\AtomPub\PublicationCategoriesDocument.cs" />
-    <Compile Include="DTO\AtomPub\PublicationCategory.cs" />
-    <Compile Include="DTO\AtomPub\PublicationContentTypes.cs" />
     <Compile Include="DTO\Flickr\Author.cs" />
     <Compile Include="DTO\Flickr\Category.cs" />
     <Compile Include="DTO\Flickr\Constant\XmlNamespaces.cs" />
@@ -71,22 +63,10 @@
     <Compile Include="DTO\Flickr\MediaContent.cs" />
     <Compile Include="DTO\Flickr\MediaCredit.cs" />
     <Compile Include="DTO\Flickr\MediaThumbnail.cs" />
-    <Compile Include="DTO\Links\AlternateLink.cs" />
-    <Compile Include="DTO\Links\CollectionLink.cs" />
-    <Compile Include="DTO\Links\EditLink.cs" />
-    <Compile Include="DTO\Links\EditMediaLink.cs" />
-    <Compile Include="DTO\Links\FirstLink.cs" />
-    <Compile Include="DTO\Links\LastLink.cs" />
-    <Compile Include="DTO\Links\Link.cs" />
-    <Compile Include="DTO\Links\NextLink.cs" />
-    <Compile Include="DTO\Links\PreviousLink.cs" />
-    <Compile Include="DTO\Links\RelatedLink.cs" />
-    <Compile Include="DTO\Links\SelfLink.cs" />
     <Compile Include="Registry\AutomapperRegistry.cs" />
     <Compile Include="Registry\EntryProfile.cs" />
     <Compile Include="Registry\FeedProfile.cs" />
     <Compile Include="Repository\IFeedRepository.cs" />
-    <Compile Include="DTO\Feed.cs" />
     <Compile Include="Repository\FeedRepository.cs" />
     <Compile Include="FlickrService\IPushService.cs" />
     <Compile Include="FlickrService\ISearchService.cs" />

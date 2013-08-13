@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Xml.Serialization;
-using NavigatorApplication.Service.DTO.Flickr.Constant;
-using NavigatorApplication.Service.DTO.Flickr.Interface;
-
-namespace NavigatorApplication.Service.DTO.Flickr
+﻿namespace NavigatorApplication.Service.DTO.Flickr
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+    using System.Xml.Serialization;
+    using NavigatorApplication.Service.DTO.Flickr.Constant;
+    using NavigatorApplication.Service.DTO.Flickr.Interface;
+
     [XmlRoot(ElementName = "feed", Namespace = XmlNamespaces.Feed)]
     public class FlickrFeed : IFlickrFeed
     {
@@ -43,7 +44,17 @@ namespace NavigatorApplication.Service.DTO.Flickr
         [XmlElement("entry")]
         public List<FeedEntry> Entries { get; set; }
 
+        public bool ShouldSerializeEntries()
+        {
+            return (this.Entries != null && this.Entries.Any());
+        }
+
         [XmlElement(ElementName = "deleted-entry", Namespace = XmlNamespaces.At)]
         public DeletedEntry DeletedEntry { get; set; }
+
+        public bool ShouldSerializeDeletedEntry()
+        {
+            return this.DeletedEntry != null;
+        }
     }
 }

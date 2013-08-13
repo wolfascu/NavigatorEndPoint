@@ -169,13 +169,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Model\Feed.cs" />
-    <Compile Include="Model\Post.cs" />
-    <Compile Include="Model\PostFeed.cs" />
-    <Compile Include="Model\PostModel.cs" />
-    <Compile Include="Model\Resource.cs" />
-    <Compile Include="Model\TagModel.cs" />
-    <Compile Include="Model\UpdatePostCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -235,6 +228,7 @@
   <ItemGroup>
     <Folder Include="Extensions\Handler\" />
     <Folder Include="Logs\" />
+    <Folder Include="Model\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -22,19 +22,19 @@ namespace NavigatorApplication.Service.Test.Atom
         [Test]
         public void Can_Get_Url_Repository_Urls()
         {
-            var urls = feedRepository.GetAll();
-            foreach (var url in urls)
-            {
-                Console.WriteLine(url.Title);  
-            }
+            //var urls = feedRepository.GetAll();
+            //foreach (var url in urls)
+            //{
+            //    Console.WriteLine(url.Title);  
+            //}
         }
 
 
         [Test]
         public void Can_Get_Url_Repository_Url()
         {
-            var feed = feedRepository.Get("1");
-            Console.WriteLine(feed.Title);
+        //    var feed = feedRepository.Get("1");
+        //    Console.WriteLine(feed.Title);
         }
     }
 }

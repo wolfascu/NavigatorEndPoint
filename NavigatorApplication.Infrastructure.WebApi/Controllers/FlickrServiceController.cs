@@ -20,9 +20,9 @@
             return await Session.LoadAsync<FlickrSaveFeed>(id);
         }
 
-        public async Task<HttpResponseMessage> Post(FlickrSaveFeed flickerFeed)
+        public async Task<HttpResponseMessage> Post(FlickrFeed flickrFeed)
         {
-            await Session.StoreAsync(flickerFeed);
+            await Session.StoreAsync(flickrFeed);
             return new HttpResponseMessage(HttpStatusCode.Created);
         }
     }
