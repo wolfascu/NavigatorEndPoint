@@ -1,4 +1,6 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
+
+namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Net;
     using System.Net.Http;
@@ -20,6 +22,7 @@
             return await Session.LoadAsync<FlickrSaveFeed>(id);
         }
 
+        //[TokenValidation]
         public async Task<HttpResponseMessage> Post(FlickrFeed flickrFeed)
         {
             await Session.StoreAsync(flickrFeed);

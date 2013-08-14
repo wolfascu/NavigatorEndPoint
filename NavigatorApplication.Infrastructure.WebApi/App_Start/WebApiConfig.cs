@@ -1,4 +1,6 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi.App_Start
+﻿using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
+
+namespace NavigatorApplication.Infrastructure.WebApi.App_Start
 {
     using System.Web.Http;
     using System.Web.Http.Tracing;
@@ -10,16 +12,14 @@
         {
             // Handlers
 
+
             // Formatters
             //config.Formatters.Remove(config.Formatters.XmlFormatter);
             // config.Formatters.XmlFormatter.UseXmlSerializer = true;
-            
-           
             //config.Formatters.Add(new AtomPubCategoryMediaTypeFormatter());
 
             // Filters
-            //config.Filters.Add(new ValidateModelStateAttribute());
-
+            // config.Filters.Add(new TokenValidationAttribute());
 
             //Trace 
             //config.Services.Replace(typeof(ITraceWriter), new SimpleTracer());

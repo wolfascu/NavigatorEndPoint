@@ -13,7 +13,7 @@
     
     using log4net;
 
- public class Log4NetTraceWriter: ITraceWriter
+    public class Log4NetTraceWriter: ITraceWriter
     {
         public bool IsEnabled(string category, TraceLevel level)
         {
