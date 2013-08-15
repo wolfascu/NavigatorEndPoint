@@ -1,17 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.IO;
-using System.Net.Http;
-using System.Text;
-using System.Web;
-using System.Web.Http.Tracing;
-using log4net;
-using NavigatorApplication.Infrastructure.WebApi.Model;
-using NavigatorApplication.Infrastructure.WebApi.Utils;
-
 namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Net.Http;
+    using System.Text;
+    using System.Web;
+    using System.Web.Http.Tracing;
+
+    using NavigatorApplication.Infrastructure.WebApi.Extensions.Constants;
+    using NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing.Model;
+    
+    using log4net;
+
     public class Log4NetTraceWriter: ITraceWriter
     {
         public bool IsEnabled(string category, TraceLevel level)

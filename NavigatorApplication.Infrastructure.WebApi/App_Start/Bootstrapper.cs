@@ -17,6 +17,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.App_Start
         {
             var container = new UnityContainer();
 
+            container.RegisterType<IApiKeyRepository, ApiKeyRepository>();
             container.RegisterType<IFeedRepository, FeedRepository>();
           
             return container;

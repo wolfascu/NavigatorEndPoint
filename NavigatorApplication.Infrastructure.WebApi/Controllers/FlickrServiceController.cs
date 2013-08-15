@@ -1,4 +1,6 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
+
+namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Net;
     using System.Net.Http;
@@ -17,12 +19,13 @@
 
         public async Task<FlickrFeed> Get(string id)
         {
-            return await Session.LoadAsync<FlickrFeed>(id);
+            return await Session.LoadAsync<FlickrSaveFeed>(id);
         }
 
-        public async Task<HttpResponseMessage> Post(FlickrFeed flickerFeed)
+        //[TokenValidation]
+        public async Task<HttpResponseMessage> Post(FlickrFeed flickrFeed)
         {
-            await Session.StoreAsync(flickerFeed);
+            await Session.StoreAsync(flickrFeed);
             return new HttpResponseMessage(HttpStatusCode.Created);
         }
     }

@@ -11,7 +11,5 @@
 
         DateTime UpdatedDate { get; set; }
 
-        List<FeedEntry> Entries { get; set; }
-
     }
 }
