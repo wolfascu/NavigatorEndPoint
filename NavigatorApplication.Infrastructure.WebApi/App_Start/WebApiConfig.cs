@@ -1,10 +1,9 @@
-﻿using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
-
-namespace NavigatorApplication.Infrastructure.WebApi.App_Start
+﻿namespace NavigatorApplication.Infrastructure.WebApi.App_Start
 {
     using System.Web.Http;
     using System.Web.Http.Tracing;
     using NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing;
+    using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
 
     public static class WebApiConfig
     {
