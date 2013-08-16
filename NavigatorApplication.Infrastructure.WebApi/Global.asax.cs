@@ -1,7 +1,7 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi
+namespace NavigatorApplication.Infrastructure.WebApi
 ﻿{
-﻿    using NavigatorApplication.Infrastructure.WebApi.App_Start;
-﻿    using NavigatorApplication.Service.Registry;
+﻿    using App_Start;
+﻿    using Service.Registry;
 ﻿    using System.Web;
 ﻿    using System.Web.Http;
 ﻿    using System.Web.Mvc;

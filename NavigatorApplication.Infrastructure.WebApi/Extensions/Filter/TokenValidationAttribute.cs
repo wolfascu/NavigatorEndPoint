@@ -4,10 +4,26 @@
     using System.Linq;
     using System.Net.Http;
     using System.Web.Http.Controllers;
-    using System.Web.Http.Filters; 
-
+    using System.Web.Http.Filters;
+    using System.Web.Http;
+    using NavigatorApplication.Service.Repository;
+    
     public class TokenValidationAttribute : ActionFilterAttribute
     {
+        
+        private readonly IApiKeyRepository _apiKeyRepository;
+
+        public TokenValidationAttribute()
+            : this(GlobalConfiguration.Configuration.DependencyResolver.GetService(typeof(IApiKeyRepository)) as IApiKeyRepository)
+        {
+
+        }
+
+        public TokenValidationAttribute(IApiKeyRepository apiApiKeyRepository)
+        {
+            _apiKeyRepository = apiApiKeyRepository;
+        }
+
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
             string token;
@@ -27,22 +43,33 @@
 
             try
             {
+                if (_apiKeyRepository.GetApiKey(token))
+                {
+                    //some code
+                }
+                else
+                {
+                    actionContext.Response = new HttpResponseMessage(System.Net.HttpStatusCode.Forbidden)
+                    {
+                        Content = new StringContent("Unauthorized User")
+                    };
+
+                    return;
+                }
                 //This needs to be injected using DI
-                
+
                 //ApiKeyRepository apiKeyRepository = new ApiKeyRepository();
                 //apiKeyRepository.GetApiKey(token);
 
                 //AuthorizedUserRepository.GetUsers().First(x => x.Name == RSAClass.Decrypt(token));
-                //base.OnActionExecuting(actionContext);
+                base.OnActionExecuting(actionContext);
             }
             catch (Exception)
             {
-                actionContext.Response = new HttpResponseMessage(System.Net.HttpStatusCode.Forbidden)
+                actionContext.Response = new HttpResponseMessage(System.Net.HttpStatusCode.InternalServerError)
                 {
-                    Content = new StringContent("Unauthorized User")
+                    Content = new StringContent("Error encountered while attempting to process authorization token")
                 };
-                
-                return;
             }
 
 

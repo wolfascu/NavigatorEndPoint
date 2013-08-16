@@ -57,10 +57,16 @@
             $.ajax({
                 url: $("#url").val(),
                 type: $("#method").val(),
+                beforeSend: function (request) {
+                    request.setRequestHeader("Authorization-Token", $("#authorizationToken").val());
+                },
                 contentType: "text/xml",
                 data: $("#content").val(),
                 success: function (data, textStatus, xhr) {
                     $("#status").text(xhr.status);
+                },
+                error: function (data) {
+                    $("#status").text(data.status);
                 }
             });
         });
