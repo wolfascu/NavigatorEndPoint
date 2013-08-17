@@ -19,7 +19,8 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 
         public async Task<FlickrFeed> Get(string id)
         {
-            return await Session.LoadAsync<FlickrSaveFeed>(id);
+            var test = id;
+            return await Session.LoadAsync<FlickrFeed>(id);
         }
 
         [TokenValidation]

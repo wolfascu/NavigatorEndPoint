@@ -11,7 +11,6 @@
         {
             // Handlers
 
-
             // Formatters
             //config.Formatters.Remove(config.Formatters.XmlFormatter);
             // config.Formatters.XmlFormatter.UseXmlSerializer = true;
@@ -30,10 +29,6 @@
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-
-           
         }
-
-
     }
 }
