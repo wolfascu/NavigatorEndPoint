@@ -22,7 +22,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
             return await Session.LoadAsync<FlickrSaveFeed>(id);
         }
 
-        //[TokenValidation]
+        [TokenValidation]
         public async Task<HttpResponseMessage> Post(FlickrFeed flickrFeed)
         {
             await Session.StoreAsync(flickrFeed);
