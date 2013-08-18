@@ -11,5 +11,7 @@
         public string BodyContent { get; set; }
         
         public string Headers { get; set; }
+
+        public string ContentType { get; set; }
     }
 }

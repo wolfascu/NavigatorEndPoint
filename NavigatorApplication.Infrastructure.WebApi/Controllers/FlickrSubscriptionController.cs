@@ -26,7 +26,8 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
             var response = Request.CreateResponse();
             response.Content = new StringContent(challenge);
             logger.InfoFormat("challenge => {0}", challenge);
-            return response;
+            
+            return response;            
         }
 
     }

@@ -17,13 +17,21 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
         //    this.feedRepository = feedRepository;
         //}
 
-        public async Task<FlickrFeed> Get(string id)
+        /*public async Task<FlickrFeed> Get(string id)
         {
             var test = id;
             return await Session.LoadAsync<FlickrFeed>(id);
+        }*/
+
+        public HttpResponseMessage Get(string challenge)
+        {          
+            var response = Request.CreateResponse();
+            response.Content = new StringContent(challenge);           
+            return response;
         }
 
-        [TokenValidation]
+
+        
         public async Task<HttpResponseMessage> Post(FlickrFeed flickrFeed)
         {
             await Session.StoreAsync(flickrFeed);

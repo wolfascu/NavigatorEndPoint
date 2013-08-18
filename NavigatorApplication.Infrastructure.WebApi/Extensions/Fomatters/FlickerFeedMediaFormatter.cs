@@ -16,7 +16,8 @@
             this.UseXmlSerializer = true;
 
             //TODO: Determine Content Type Header
-           //SupportedMediaTypes.Add(new MediaTypeHeaderValue(AtomMediaType));
+           SupportedMediaTypes.Add(new MediaTypeHeaderValue(AtomMediaType));
+           this.AddQueryStringMapping("format", "atom", AtomMediaType);
         }
 
         public override bool CanReadType(Type type)

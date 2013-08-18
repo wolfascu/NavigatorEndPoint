@@ -17,7 +17,7 @@
             //config.Formatters.Add(new AtomPubCategoryMediaTypeFormatter());
 
             // Filters
-             config.Filters.Add(new TokenValidationAttribute());
+             //config.Filters.Add(new TokenValidationAttribute());
 
             //Trace 
             //config.Services.Replace(typeof(ITraceWriter), new SimpleTracer());

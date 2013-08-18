@@ -57,7 +57,7 @@
             $.ajax({
                 url: $("#url").val(),
                 type: $("#method").val(),
-                contentType: "text/xml",
+                contentType: "application/atom+xml",
                 data: $("#content").val(),
                 success: function (data, textStatus, xhr) {
                     $("#status").text(xhr.status);
