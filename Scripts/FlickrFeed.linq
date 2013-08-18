@@ -1,4 +1,4 @@
-<Query Kind="Expression">
+<Query Kind="Statements">
   <Connection>
     <ID>c5440a86-f230-415c-a292-621b615908c0</ID>
     <Persist>true</Persist>
@@ -11,11 +11,17 @@
     </DriverData>
   </Connection>
   <Reference>D:\Applications\NavigatorDataStore\NavigatorDataStore\NavigatorApplication.Domain\bin\Debug\NavigatorApplication.Domain.dll</Reference>
+  <Reference Relative="..\NavigatorApplication.Service\bin\Debug\NavigatorApplication.Service.dll">&lt;MyDocuments&gt;\GitHub\NavigatorEndPoint\NavigatorApplication.Service\bin\Debug\NavigatorApplication.Service.dll</Reference>
   <Namespace>NavigatorApplication.Domain.DTO</Namespace>
+  <Namespace>NavigatorApplication.Service.DTO.Flickr</Namespace>
 </Query>
 
-//Get Predicate
-var predicate =  Load<Predicate>("Predicates/1");
-predicate.Dump();
+//Get FlickrFeed
 
-var feed = from FlickrFeed
+var flickrFeed = Load<FlickrFeed>("1373428650");
+flickrFeed.Dump();
+
+var flickrFeed = Load<FlickrFeed>("1374914055");
+flickrFeed.Dump();
+
+
