@@ -30,8 +30,6 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
             return response;
         }
 
-
-        
         public async Task<HttpResponseMessage> Post(FlickrFeed flickrFeed)
         {
             await Session.StoreAsync(flickrFeed);
