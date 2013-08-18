@@ -1,28 +1,12 @@
-﻿using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
-
-namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Net;
     using System.Net.Http;
     using System.Threading.Tasks;
     using NavigatorApplication.Service.DTO.Flickr;
-    using NavigatorApplication.Service.Repository; 
 
     public class FlickrServiceController : RavenController
     {
-        private readonly IFeedRepository feedRepository;
-
-        //FlickrServiceController(IFeedRepository feedRepository)
-        //{
-        //    this.feedRepository = feedRepository;
-        //}
-
-        /*public async Task<FlickrFeed> Get(string id)
-        {
-            var test = id;
-            return await Session.LoadAsync<FlickrFeed>(id);
-        }*/
-
         public HttpResponseMessage Get(string challenge)
         {          
             var response = Request.CreateResponse();
