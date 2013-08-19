@@ -29,7 +29,19 @@
 
             try
             {
-                token = actionContext.Request.Headers.GetValues("Authorization-Token").First();
+                var queryString = actionContext.Request.RequestUri.ParseQueryString();
+                if (!string.IsNullOrEmpty(queryString["Authorization-Token"]))
+                {
+                    token = queryString["Authorization-Token"];
+                }
+                else
+                {
+                    actionContext.Response = new HttpResponseMessage(System.Net.HttpStatusCode.BadRequest)
+                    {
+                        Content = new StringContent("Missing Authorization-Token")
+                    };
+                    return;                    
+                }
             }
             catch (Exception)
             {
@@ -44,7 +56,7 @@
             {
                 if (_apiKeyRepository.GetApiKey(token))
                 {
-                    //some code
+                    //some code                    
                 }
                 else
                 {

@@ -96,20 +96,12 @@
                 IpAddress = HttpContext.Current != null ? HttpContext.Current.Request.UserHostAddress : "0.0.0.0",
                 ContentType = context.Request.ContentType
             };
-
-
-            /*HttpRequestBase req = context.Request;
-            var inputStream = req.InputStream;
-            inputStream.Position = 0;*/
+           
             Task<string> getContentTask = request.Content.ReadAsStringAsync();
 
             info.BodyContent = getContentTask.Result;
             info.Headers = request.Headers.ToString();
-            /* using (var reader = new StreamReader(inputStream))
-             {
-                 info.Headers = request.Headers.ToString();
-                 info.BodyContent = reader.ReadToEnd();
-             }*/
+           
 
             return info;
         }
