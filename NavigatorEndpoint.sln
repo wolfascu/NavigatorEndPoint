@@ -40,6 +40,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XSD", "XSD", "{FA0143F7-EF6
 		Documents\XSD\atom_xsd.xml = Documents\XSD\atom_xsd.xml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{E97FF79E-067A-49FB-95F5-96E78135F884}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{5BD85262-54FE-4080-BBE7-5E9E34BF5EF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{CBD31D1A-C800-4FE2-B528-101C82537187}"
+	ProjectSection(SolutionItems) = preProject
+		Library\SQLite\x64\SQLite.Interop.dll = Library\SQLite\x64\SQLite.Interop.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{864DE96C-6E29-4C5C-BB8C-79378EFEA902}"
+	ProjectSection(SolutionItems) = preProject
+		Library\SQLite\x86\SQLite.Interop.dll = Library\SQLite\x86\SQLite.Interop.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{ADADFE41-43F0-4FFB-B928-FD1CA5E709E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite Database Browser", "SQLite Database Browser", "{0684A258-5FF3-40FE-89BE-4244BDE5EA2D}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\SQLite Database Browser\sqlitebrowser_200_b1_win.zip = Tools\SQLite Database Browser\sqlitebrowser_200_b1_win.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +93,10 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FA0143F7-EF66-4214-B91E-5F52D1FC2660} = {EA8298DE-EFB4-4954-AFC0-382B75F280AF}
+		{5BD85262-54FE-4080-BBE7-5E9E34BF5EF0} = {E97FF79E-067A-49FB-95F5-96E78135F884}
+		{CBD31D1A-C800-4FE2-B528-101C82537187} = {5BD85262-54FE-4080-BBE7-5E9E34BF5EF0}
+		{864DE96C-6E29-4C5C-BB8C-79378EFEA902} = {5BD85262-54FE-4080-BBE7-5E9E34BF5EF0}
+		{0684A258-5FF3-40FE-89BE-4244BDE5EA2D} = {ADADFE41-43F0-4FFB-B928-FD1CA5E709E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35

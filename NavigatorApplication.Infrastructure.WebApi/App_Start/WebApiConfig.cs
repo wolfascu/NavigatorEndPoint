@@ -11,18 +11,17 @@
         {
             // Handlers
 
-
             // Formatters
             //config.Formatters.Remove(config.Formatters.XmlFormatter);
             // config.Formatters.XmlFormatter.UseXmlSerializer = true;
             //config.Formatters.Add(new AtomPubCategoryMediaTypeFormatter());
 
             // Filters
-            // config.Filters.Add(new TokenValidationAttribute());
+             //config.Filters.Add(new TokenValidationAttribute());
 
             //Trace 
             //config.Services.Replace(typeof(ITraceWriter), new SimpleTracer());
-            //config.Services.Replace(typeof(ITraceWriter), new Log4NetTraceWriter());
+            config.Services.Replace(typeof(ITraceWriter), new Log4NetTraceWriter());
 
             // Routes
             config.Routes.MapHttpRoute(
@@ -30,10 +29,6 @@
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-
-           
         }
-
-
     }
 }

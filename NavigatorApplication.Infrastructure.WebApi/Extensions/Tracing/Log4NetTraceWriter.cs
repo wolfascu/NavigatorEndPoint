@@ -10,10 +10,11 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
 
     using NavigatorApplication.Infrastructure.WebApi.Extensions.Constants;
     using NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing.Model;
-    
-    using log4net;
 
-    public class Log4NetTraceWriter: ITraceWriter
+    using log4net;
+    using System.Threading.Tasks;
+
+    public class Log4NetTraceWriter : ITraceWriter
     {
         public bool IsEnabled(string category, TraceLevel level)
         {
@@ -46,16 +47,16 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
 
             if (GlobalConstants.IsPipelineLogged && record.Kind != TraceKind.Begin)
                 return;
-            
+
             if (record.Request != null)
             {
                 var info = ExtractLoggingInfoFromRequest(record.Request, new HttpContextWrapper(HttpContext.Current));
-
-                    ThreadContext.Properties["HttpMethod"] = info.HttpMethod;
-                    ThreadContext.Properties["Headers"] = info.Headers;
-                    ThreadContext.Properties["UriAccessed"] = info.UriAccessed;
-                    ThreadContext.Properties["IpAddress"] = info.IpAddress;
-                    ThreadContext.Properties["BodyContent"] = info.BodyContent;
+                ThreadContext.Properties["HttpMethod"] = info.HttpMethod;
+                ThreadContext.Properties["Headers"] = info.Headers;
+                ThreadContext.Properties["UriAccessed"] = info.UriAccessed;
+                ThreadContext.Properties["IpAddress"] = info.IpAddress;
+                ThreadContext.Properties["BodyContent"] = info.BodyContent;
+                ThreadContext.Properties["Content-Type"] = info.ContentType;
 
             }
 
@@ -92,17 +93,15 @@ namespace NavigatorApplication.Infrastructure.WebApi.Extensions.Tracing
             {
                 HttpMethod = request.Method.Method,
                 UriAccessed = request.RequestUri.AbsoluteUri,
-                IpAddress = HttpContext.Current != null ? HttpContext.Current.Request.UserHostAddress : "0.0.0.0"
+                IpAddress = HttpContext.Current != null ? HttpContext.Current.Request.UserHostAddress : "0.0.0.0",
+                ContentType = context.Request.ContentType
             };
+           
+            Task<string> getContentTask = request.Content.ReadAsStringAsync();
 
-            HttpRequestBase req = context.Request;
-            var inputStream = req.InputStream;
-            inputStream.Position = 0;
-            using (var reader = new StreamReader(inputStream))
-            {
-                info.Headers = request.Headers.ToString();
-                info.BodyContent = reader.ReadToEnd();
-            }
+            info.BodyContent = getContentTask.Result;
+            info.Headers = request.Headers.ToString();
+           
 
             return info;
         }

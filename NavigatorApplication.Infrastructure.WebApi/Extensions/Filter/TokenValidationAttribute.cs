@@ -7,7 +7,7 @@
     using System.Web.Http.Filters;
     using System.Web.Http;
     using NavigatorApplication.Service.Repository;
-    
+
     public class TokenValidationAttribute : ActionFilterAttribute
     {
         
@@ -30,7 +30,19 @@
 
             try
             {
-                token = actionContext.Request.Headers.GetValues("Authorization-Token").First();
+                var queryString = actionContext.Request.RequestUri.ParseQueryString();
+                if (!string.IsNullOrEmpty(queryString["Authorization-Token"]))
+                {
+                    token = queryString["Authorization-Token"];
+                }
+                else
+                {
+                    actionContext.Response = new HttpResponseMessage(System.Net.HttpStatusCode.BadRequest)
+                    {
+                        Content = new StringContent("Missing Authorization-Token")
+                    };
+                    return;                    
+                }
             }
             catch (Exception)
             {
@@ -45,7 +57,7 @@
             {
                 if (_apiKeyRepository.GetApiKey(token))
                 {
-                    //some code
+                    //some code                    
                 }
                 else
                 {
@@ -56,12 +68,6 @@
 
                     return;
                 }
-                //This needs to be injected using DI
-
-                //ApiKeyRepository apiKeyRepository = new ApiKeyRepository();
-                //apiKeyRepository.GetApiKey(token);
-
-                //AuthorizedUserRepository.GetUsers().First(x => x.Name == RSAClass.Decrypt(token));
                 base.OnActionExecuting(actionContext);
             }
             catch (Exception)
@@ -71,9 +77,6 @@
                     Content = new StringContent("Error encountered while attempting to process authorization token")
                 };
             }
-
-
-
         }
     }
 }

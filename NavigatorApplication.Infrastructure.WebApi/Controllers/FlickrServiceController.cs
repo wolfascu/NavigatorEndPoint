@@ -9,16 +9,12 @@
 
     public class FlickrServiceController : RavenController
     {
-        private readonly IFeedRepository feedRepository;
-
-        //FlickrServiceController(IFeedRepository feedRepository)
-        //{
-        //    this.feedRepository = feedRepository;
-        //}
-
-        public async Task<FlickrFeed> Get(string id)
-        {
-            return await Session.LoadAsync<FlickrSaveFeed>(id);
+        [TokenValidation]
+        public HttpResponseMessage Get(string challenge)
+        {          
+            var response = Request.CreateResponse();
+            response.Content = new StringContent(challenge);           
+            return response;
         }
 
         [TokenValidation]

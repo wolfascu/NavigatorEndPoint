@@ -76,6 +76,13 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\packages\System.Data.SQLite.1.0.88.0\lib\net45\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq">
+      <HintPath>..\packages\System.Data.SQLite.1.0.88.0\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
     <Reference Include="System.Net.Http.Extensions, Version=2.2.13.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Net.Http.2.2.13\lib\net45\System.Net.Http.Extensions.dll</HintPath>
@@ -150,9 +157,11 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FormatterConfig.cs" />
+    <Compile Include="App_Start\LogConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\Bootstrapper.cs" />
+    <Compile Include="Controllers\FeedManagementController.cs" />
     <Compile Include="Controllers\FlickrServiceController.cs" />
     <Compile Include="Controllers\FlickrSubscriptionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -264,7 +273,9 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Log4Net.config" />
+    <Content Include="Log4Net.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\DataTables-1.9.4\docs\media\js\doc.js" />
     <Content Include="Scripts\DataTables-1.9.4\docs\media\js\DT_bootstrap.js" />
     <Content Include="Scripts\DataTables-1.9.4\docs\media\js\jquery.js" />
@@ -313,6 +324,10 @@
     <Content Include="Content\DataTables-1.9.4\extras\TableTools\media\images\psd\file_types.psd" />
     <Content Include="Content\DataTables-1.9.4\extras\TableTools\media\images\psd\copy document.psd" />
     <Content Include="Content\DataTables-1.9.4\extras\TableTools\media\images\psd\collection.psd" />
+    <Content Include="x64\SQLite.Interop.dll" />
+    <Content Include="x86\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\DataTables-1.9.4\extras\TableTools\media\js\ZeroClipboard.js" />
     <Content Include="Scripts\DataTables-1.9.4\media\js\jquery.dataTables.js" />

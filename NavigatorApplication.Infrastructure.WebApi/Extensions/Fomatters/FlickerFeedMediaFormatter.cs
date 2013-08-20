@@ -15,8 +15,10 @@
             //TODO: Using Flickr Namespace  Remove
             this.UseXmlSerializer = true;
 
-            //TODO: Determine Content Type Header
-           //SupportedMediaTypes.Add(new MediaTypeHeaderValue(AtomMediaType));
+            //TODO: Determine Content Type Header 
+            //Handle Status Msg if Not atom+xml 
+           SupportedMediaTypes.Add(new MediaTypeHeaderValue(AtomMediaType));
+           this.AddQueryStringMapping("format", "atom", AtomMediaType);
         }
 
         public override bool CanReadType(Type type)
