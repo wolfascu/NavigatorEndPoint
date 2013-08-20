@@ -23,6 +23,8 @@ packages/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+# SQLite Database Files
+*.db
 
 # ReSharper is a .NET coding add-in
 _ReSharper*/
@@ -40,3 +42,8 @@ csx
 *.obj
 *.dll
 *.log
+
+
+
+
+
