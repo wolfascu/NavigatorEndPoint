@@ -17,18 +17,34 @@ namespace NavigatorApplication.Infrastructure.WebApi.App_Start
         {
             string dbConnectionString = ConfigurationManager.ConnectionStrings["SqlLiteConnStr"].ConnectionString;
             dbConnectionString = dbConnectionString.Replace("{LogFolder}", logFolder);
+            
+            
             if(!File.Exists(logFile))
             {
                 // create log file
                 // create new table
                 SQLiteConnection.CreateFile(logFile);
-                var dbConnection = new SQLiteConnection(dbConnectionString);
-                dbConnection.Open();
-                string sql =
-                    "create table Log4NetLog (Date datetime, Thread varchar(255), Level varchar(50), Logger varchar(500), Message ntext, Exception ntext)";
-                var command = new SQLiteCommand(sql, dbConnection);
-                command.ExecuteNonQuery();
+                
+                
+                using (var dbConnection = new SQLiteConnection(dbConnectionString))
+                {
+                    dbConnection.Open();
+                    
+                    string sql = "create table Log4NetLog (Date datetime, Thread varchar(255), Level varchar(50), Logger varchar(500), Message ntext, Exception ntext)";
+
+                    var command = new SQLiteCommand(sql, dbConnection);
+
+                    command.ExecuteNonQuery();
+                }
+                
             }            
+            
+ 
+
+
+
+
+
             
             //configure log4net
             var hierarchy = LogManager.GetRepository() as Hierarchy;
