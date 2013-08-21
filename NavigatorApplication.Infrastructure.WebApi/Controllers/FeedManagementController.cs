@@ -1,15 +1,17 @@
-﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿using System.Web.Http;
+
+namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Collections.Generic;
 
     using NavigatorApplication.Service.Model;
     using NavigatorApplication.Service.Repository;
-  
-    public class FeedManagementController : RavenController
+
+    public class FeedManagementController : ApiController
     {
         private readonly IFeedRepository feedRepository;
         
-        public FeedManagementController()
+        public FeedManagementController(IFeedRepository feedRepository)
         {
             this.feedRepository = feedRepository;
         }
