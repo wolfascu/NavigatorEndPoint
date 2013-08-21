@@ -38,10 +38,12 @@ _ReSharper*/
 csx
 *.build.csdef
 
+# *.dll - Include Library/SQLite
+
 *.pdb
 *.obj
-*.dll
 *.log
+
 
 
 

@@ -55,7 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Atom\AtomFeedTest.cs" />
+    <Compile Include="Repository\FeedRepositoryTest.cs" />
     <Compile Include="FlickrService\PushServiceTest.cs" />
     <Compile Include="FlickrService\SearchServiceTest.cs" />
     <Compile Include="Helpers\FlickrHelpers.cs" />
