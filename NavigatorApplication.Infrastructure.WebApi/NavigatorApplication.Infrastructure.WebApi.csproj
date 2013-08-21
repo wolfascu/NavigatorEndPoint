@@ -276,6 +276,7 @@
     <Content Include="Log4Net.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Scripts\customizeDatatable.js" />
     <Content Include="Scripts\DataTables-1.9.4\docs\media\js\doc.js" />
     <Content Include="Scripts\DataTables-1.9.4\docs\media\js\DT_bootstrap.js" />
     <Content Include="Scripts\DataTables-1.9.4\docs\media\js\jquery.js" />
