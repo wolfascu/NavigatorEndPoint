@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
 
     using NavigatorApplication.Service.Model;
 
@@ -36,7 +37,7 @@
 
         public IEnumerable<FeedModel> GetFeeds()
         {
-            return feeds;
+            return feeds.ToList().OrderByDescending(x => x.Date);
         }
     }
 }
