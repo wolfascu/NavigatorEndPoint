@@ -14,6 +14,10 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
             return View();
         }
 
+        public ActionResult Photos()
+        {
+            return View();
+        }
 
 
     }
