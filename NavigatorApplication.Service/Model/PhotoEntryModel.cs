@@ -20,5 +20,10 @@
 
         public string PhotoURL { get; set; }
 
+        public new string ToString()
+        {
+            return string.Format("Id:{0}|FeedId:{1}|Title:{2}|Updated:{3}|DateTaken:{4}|AuthorName:{5}",
+                Id, FeedId, Title, Updated, DateTaken, AuthorName);
+        }
     }
 }
