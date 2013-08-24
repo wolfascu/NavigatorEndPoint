@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System.Linq;
+using System.Web.Http;
 
 namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
@@ -24,7 +25,7 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 
         public IEnumerable<FeedModel> Get()
         {
-            return feedRepository.GetFeeds();
+            return feedRepository.GetFeeds().ToList().OrderByDescending(x => x.Date);
         }
  
 
