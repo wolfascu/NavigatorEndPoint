@@ -1,11 +1,11 @@
-﻿using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
-
-namespace NavigatorApplication.Infrastructure.WebApi.Controllers
+﻿namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Net;
     using System.Net.Http;
     using System.Threading.Tasks;
+
     using NavigatorApplication.Service.DTO.Flickr;
+    using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
 
     public class FlickrServiceController : RavenController
     {
@@ -17,7 +17,6 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
             return response;
         }
 
-        //[TokenValidation]
         public async Task<HttpResponseMessage> Post(FlickrFeed flickrFeed)
         {
             await Session.StoreAsync(flickrFeed);

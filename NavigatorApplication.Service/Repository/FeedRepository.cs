@@ -9,6 +9,8 @@
     {
         private readonly List<FeedModel> feeds;
 
+        private readonly List<PhotoEntryModel> photoEntries;
+
         public FeedRepository()
         {
             feeds = new List<FeedModel>()
@@ -32,11 +34,26 @@
                    new FeedModel{Operation ="Update", Id = "1843428212", Title = "Flickr Push Feed", Entries = 5, Date = DateTime.Parse("3/13/2013 3:57:30 AM")},
                    new FeedModel{Operation ="Update", Id = "1353428332", Title = "Flickr Push Feed", Entries = 12, Date = DateTime.Parse("6/7/2013 2:57:30 AM")},
                 };
+
+            photoEntries = new List<PhotoEntryModel>()
+                {
+                    new PhotoEntryModel {Id = "2323232332", FeedId = "1373428650", Title = "Orly Genger - Red", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9375724635/",},
+                    new PhotoEntryModel {Id = "9251065777", FeedId = "1373428650", Title = "Human Statue (Jessie)", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9251065777/",},
+                    new PhotoEntryModel {Id = "9533599199", FeedId = "1373428650", Title = "Joan of Arc", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9253847782/",},
+                    new PhotoEntryModel {Id = "9536381882", FeedId = "1373428650", Title = "Joan of Arc", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9251065395/",},
+                };
+
+
         }
 
         public IEnumerable<FeedModel> GetFeeds()
         {
             return feeds;
+        }
+
+        public IEnumerable<PhotoEntryModel> GetPhotoEntries(string feedId)
+        {
+            return photoEntries;
         }
     }
 }
