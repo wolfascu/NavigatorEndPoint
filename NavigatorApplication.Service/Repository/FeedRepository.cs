@@ -35,12 +35,20 @@
                    new FeedModel{Operation ="Update", Id = "1353428332", Title = "Flickr Push Feed", Entries = 12, Date = DateTime.Parse("6/7/2013 2:57:30 AM")},
                 };
 
+            var updateTypes1 = new string[] { "tags", "geo", "created" };
+            var updateTypes2 = new string[] { "title" };
+            var updateTypes3 = new string[] { "geo", "created" };
+            var updateTypes4 = new string[] { "tags" };
+
+            var categories1 = new List<Category> { new Category { Type = "Tag", Value = "nycparks:B010=206" }, new Category { Type = "Tag", Value = "nycopendata:B010=206" } };
+            var categories4 = new List<Category> { new Category { Type = "Tag", Value = "nycparks:B010=206" },  };
+
             photoEntries = new List<PhotoEntryModel>()
                 {
-                    new PhotoEntryModel {Id = "2323232332", FeedId = "1373428650", Title = "Orly Genger - Red", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9375724635/",},
-                    new PhotoEntryModel {Id = "9251065777", FeedId = "1373428650", Title = "Human Statue (Jessie)", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9251065777/",},
-                    new PhotoEntryModel {Id = "9533599199", FeedId = "1373428650", Title = "Joan of Arc", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9253847782/",},
-                    new PhotoEntryModel {Id = "9536381882", FeedId = "1373428650", Title = "Joan of Arc", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9251065395/",},
+                    new PhotoEntryModel {Id = "2323232332", FeedId = "1373428650", Title = "Orly Genger - Red", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9375724635/", UpdateTypes = updateTypes1, Categories = categories1},
+                    new PhotoEntryModel {Id = "9251065777", FeedId = "1373428650", Title = "Human Statue (Jessie)", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9251065777/", UpdateTypes = updateTypes2},
+                    new PhotoEntryModel {Id = "9533599199", FeedId = "1373428650", Title = "Joan of Arc", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9253847782/", UpdateTypes = updateTypes3},
+                    new PhotoEntryModel {Id = "9536381882", FeedId = "1373428650", Title = "Joan of Arc", Updated = DateTime.Now.AddDays(-122), DateTaken = DateTime.Now.AddDays(-200),AuthorName = "SPS101", AuthorURL = "http://www.flickr.com/people/stuartshay/", PhotoURL = "http://www.flickr.com/photos/stuartshay/9251065395/", UpdateTypes = updateTypes4, Categories = categories4},
                 };
 
 
