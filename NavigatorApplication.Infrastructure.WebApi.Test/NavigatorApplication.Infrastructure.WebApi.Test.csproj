@@ -53,6 +53,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NavigatorApplication.Common\NavigatorApplication.Common.csproj">
+      <Project>{0c880738-21c9-44b1-8a87-44768be6cfb1}</Project>
+      <Name>NavigatorApplication.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NavigatorApplication.Service\NavigatorApplication.Service.csproj">
+      <Project>{dea2681d-9171-49eb-966b-b1c4b6f59d21}</Project>
+      <Name>NavigatorApplication.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

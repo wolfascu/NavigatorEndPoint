@@ -1,84 +1,155 @@
-﻿@{
+@{
     ViewBag.Title = "Photos";
 }
+@section content
+{
+  <style type="text/css">
+     .photo {
+      background: none repeat scroll 0 0 #f5f5f5;
+      border: 1px solid #000000;
+      border-radius: 5px 5px 5px 5px;
+      margin-bottom: 5px;
+      margin-left: 0;
+      margin-right: -20px;
+      padding: 5px;
+    }
+    
+  </style>
+}
 
-<h2>Photos</h2>
-
+<h3>Photos</h3>
 
 <div>
     
-    <div>
-       <div>
-        <div style="float: left;">
-            <img src="http://farm3.staticflickr.com/2873/9375724635_33e3194cc6_s.jpg"/>      
+    <div class="photo row">
+        <div class="span2">
+            <img src="http://farm3.staticflickr.com/2873/9375724635_33e3194cc6_s.jpg"/>
         </div>
-        <div style="float: left; margin-left: 10px;">
+        <div class="span4">
             <div>
-                <span style="padding-right: 10px;">Title</span><span>DSC01698</span>   
+                <span style="padding-right: 10px;">Title</span><span>Orly Genger - Red</span>   
             </div>
             <div>
-                <span style="padding-right: 10px;">Photo Id</span><span>9251064553</span>  
+                <span style="padding-right: 10px;">Photo Id</span><span>9375724635</span>  
             </div>
             <div>
                 <span style="padding-right: 10px;">Updated</span><span>2013-07-10T04:00:31Z</span>  
             </div> 
             <div>
                 <span style="padding-right: 10px;">Date Taken</span><span>2013-04-21T17:20:12-08:00</span>  
-            </div> 
+            </div>  
         </div>
-        <div style="float: left; margin-left: 10px;">
-            <author>
-                <name>SPS101</name>
-                <uri>http://www.flickr.com/people/stuartshay/</uri>
-            </author> 
+        <div class="span4">
+            <div>
+                <span>Name</span><span>SPS101</span>     
+            </div>
+            <div>
+                <span>Author URL</span><span>http://www.flickr.com/people/stuartshay/</span>     
+            </div>
+            <div>
+                <span>Photo URL</span><span>http://www.flickr.com/photos/stuartshay/9375724635/</span>                  
+            </div>  
         </div>
-       </div>    
-       <div style="clear: both;"/>
-       <div style="background-color: gainsboro;">
-              @* <update type="created" />
-            <update type="tags" />
-            <category term="nycparks:M052=961" scheme="http://www.flickr.com/photos/tags/" />*@
-            <span>Update Type:</span><span>Created, Tags</span>
-            <span>Category:</span><span>nycparks:M052=961</span>
+        <div class="span12">
+            <div>
+                <span>Update Type:</span><span>Created, Tags</span>  
+            </div>
+            <div>
+                 <span>Category:</span><span>nycparks:M052=961</span>  
+            </div>
         </div>
     </div>
-  
-    <div>
-           
-        
-    </div>   
-
+    
+    <div class="photo row">
+        <div class="span2">
+            <img src="http://farm3.staticflickr.com/5348/9536384826_6612eae15a_s.jpg"/> 
+        </div>
+        <div class="span4">
+            <div>
+                <span style="padding-right: 10px;">Title</span><span>Joan of Arc</span>   
+            </div>
+            <div>
+                <span style="padding-right: 10px;">Photo Id</span><span>9533599199</span>  
+            </div>
+            <div>
+                <span style="padding-right: 10px;">Updated</span><span>2013-07-10T04:00:31Z</span>  
+            </div> 
+            <div>
+                <span style="padding-right: 10px;">Date Taken</span><span>2013-04-21T17:20:12-08:00</span>  
+            </div>   
+        </div>
+        <div class="span4">
+            <div>
+               <span>Name</span><span>SPS101</span>     
+            </div>
+            <div>
+                <span>Author URL</span><span>http://www.flickr.com/people/stuartshay/</span>     
+            </div>
+            <div>
+               <span>Photo URL</span><span>http://www.flickr.com/photos/stuartshay/9253847782/</span>                  
+            </div>             
+        </div>
+        <div class="span12">
+            <div>
+                <span>Update Type:</span><span>Created, Tags</span>  
+            </div>
+            <div>
+                 <span>Category:</span><span>nycparks:M052=961</span>  
+            </div>
+        </div>
+    </div>
+    
+    <div class="photo row">
+      <div class="span2">
+            <img src="http://farm3.staticflickr.com/3701/9536382512_b0cf5b1272_s.jpg"/>    
+        </div>
+      <div class="span4">
+            <div>
+                <span style="padding-right: 10px;">Title</span><span>Joan of Arc</span>   
+            </div>
+            <div>
+                <span style="padding-right: 10px;">Photo Id</span><span>9533599199</span>  
+            </div>
+            <div>
+                <span style="padding-right: 10px;">Updated</span><span>2013-07-10T04:00:31Z</span>  
+            </div> 
+            <div>
+                <span style="padding-right: 10px;">Date Taken</span><span>2013-04-21T17:20:12-08:00</span>  
+            </div>   
+        </div>
+      <div class="span4">
+            <div>
+                <span>Name</span><span>SPS101</span>     
+            </div>
+            <div>
+                <span>Author URL</span><span>http://www.flickr.com/people/stuartshay/</span>     
+            </div>
+            <div>
+                <span>Photo URL</span><span>http://www.flickr.com/photos/stuartshay/9253847782/</span>                  
+            </div>    
+        </div>
+      <div class="span12">
+            <div>
+                <span>Update Type:</span><span>Created, Tags</span>  
+            </div>
+            <div>
+                 <span>Category:</span><span>nycparks:M052=961</span>  
+            </div>
+        </div>  
+    </div>
+    
 </div>
 
-
-@*
-<photo>
-    <title>DSC01698</title>
-    <id>9251064553</id>
-    <updated>2013-07-10T04:00:31Z</updated>
-    
-    <update type="created" />
-    <update type="tags" />
-    
-     <category term="nycparks:M052=961" scheme="http://www.flickr.com/photos/tags/" />
-
-    <date_taken>2013-04-21T17:20:12-08:00</date_taken>
-     <author>
-       <name>SPS101</name>
-       <uri>http://www.flickr.com/people/stuartshay/</uri>
-     </author>    
-  </photo>
-  
-  <photo>
-     Include 3-4 Photos in the Mockup List 
-    (Same Properties as above)
-  </photo>
-  <photo>
-       Include 3-4 Photos in the Mockup
-    (Same Properties as above)
-  </photo>
-   <photo>
-       Include 3-4 Photos in the Mockup
-    (Same Properties as above)
-  </photo>
-*@
+<div class="span12">
+    <div class="row">
+        <div style="color:red;" class="span8">
+            <ul>
+                <li>
+                    Implement WebAPI Ajax/JSON Method into HTML Wireframe:<br/>
+                    /Home/Photos Note: Pass FeedId - Server Side is Hardcoded<br/>
+                    FeedPhotoController.Get(string Id) 
+                </li>  
+            </ul>
+        </div>
+    </div>  
+</div>

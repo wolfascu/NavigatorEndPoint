@@ -18,7 +18,5 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
         {
             return View();
         }
-
-
     }
 }

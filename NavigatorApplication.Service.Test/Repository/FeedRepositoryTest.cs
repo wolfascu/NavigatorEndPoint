@@ -28,5 +28,20 @@ namespace NavigatorApplication.Service.Test.Repository
             }
         }
 
+        [Test]
+        [TestCase("1373428650")]
+        public void Can_Get_Feed_Photo_Entries(string feedId)
+        {
+            var photoEntries = feedRepository.GetPhotoEntries(feedId);
+            foreach (var photoEntryModel in photoEntries)
+            {
+                Console.WriteLine(photoEntryModel.ToString());
+            }
+        }
+
+
+
+
+
     }
 }
