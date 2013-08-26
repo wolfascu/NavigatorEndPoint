@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.IO;
 
 namespace NavigatorApplication.Infrastructure.WebApi
@@ -18,8 +19,8 @@ namespace NavigatorApplication.Infrastructure.WebApi
             string l4net = Server.MapPath("~/log4net.config");
             log4net.Config.XmlConfigurator.Configure(new FileInfo(l4net));
 
-            string logFile = Server.MapPath("~/Logs/log.sqlite");
-            LogConfig.Configure(logFile, Server.MapPath("~/Logs"));
+            string logFolder = ConfigurationManager.AppSettings["LogFolder"];
+            LogConfig.Configure(Server.MapPath("~/" + logFolder));
 
             AreaRegistration.RegisterAllAreas();
             WebApiConfig.Register(GlobalConfiguration.Configuration);
