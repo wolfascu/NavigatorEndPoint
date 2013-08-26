@@ -20,8 +20,16 @@ namespace NavigatorApplication.Service.Test.FlickrService
         public void Setup()
         {
             IoC.Container.RegisterType<IPushService, PushService>();
-
             pushService = IoC.Container.Resolve<IPushService>();
+
+            //Filcir 
+
+        }
+
+        [Test]
+        public void Create_Flickr_OAuth_Token()
+        {
+            Assert.Fail("TODO");
         }
 
         [Test]
@@ -45,7 +53,7 @@ namespace NavigatorApplication.Service.Test.FlickrService
         }
 
         [Test]
-        public void Can_Subscribe_UnSubscribe()
+        public void Can_Subscribe_Flickr_Subscription()
         {
             var callback = "http://tuanmh.no-ip.biz/flickratom/api/AtomEndpoint";
             var topic = "my_photos";
@@ -73,6 +81,12 @@ namespace NavigatorApplication.Service.Test.FlickrService
             f.PushUnsubscribe(topic, callback, verify, null);
         }
 
+        [Test]
+        public void Can_UnSubscribe_Flickr_Subscription()
+      {
+          
+
+      }
 
         public void Test()
         {
@@ -84,10 +98,5 @@ namespace NavigatorApplication.Service.Test.FlickrService
             Console.WriteLine(token);
             //System.Diagnostics.Process.Start(f.AuthCalcUrlMobile(frog, AuthLevel.Delete));
         }
-
-
-
-
-
     }
 }
