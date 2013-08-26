@@ -1,8 +1,7 @@
 @{
     ViewBag.Title = "Photos";
 }
-@section content
-{
+
   <style type="text/css">
      .photo {
       background: none repeat scroll 0 0 #f5f5f5;
@@ -15,11 +14,9 @@
     }
     
   </style>
-}
-
 <h3>Photos</h3>
 
-<div>
+<div id="content-holder">
     
     <div class="photo row">
         <div class="span2">
@@ -153,3 +150,8 @@
         </div>
     </div>  
 </div>
+
+
+@section scripts{
+    <script src="~/Scripts/photosGet.js"></script>
+}

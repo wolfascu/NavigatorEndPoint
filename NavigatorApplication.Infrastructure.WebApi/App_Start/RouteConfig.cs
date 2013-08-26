@@ -10,6 +10,14 @@ namespace NavigatorApplication.Infrastructure.WebApi.App_Start
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Photos",
+                url: "Feed/{id}/Photos",
+                defaults: new { controller = "Home", action = "Photos"}
+                
+
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
