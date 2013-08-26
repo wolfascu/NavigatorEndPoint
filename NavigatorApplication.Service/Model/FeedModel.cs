@@ -21,9 +21,8 @@
 
         public new string ToString()
         {
-            return string.Format("Id:{0}|Operation:{1}|Title{2}|Entries{3}|Date:{4}|Photos:{5}", 
+            return string.Format("Id:{0}|Operation:{1}|Title{2}|Entries{3}|Date:{4}|Photos:{5}",
                 Id, Operation, Title, Entries, Date, Photos);
         }
-
     }
 }
