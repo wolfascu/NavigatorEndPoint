@@ -65,6 +65,7 @@
     <Compile Include="DTO\Flickr\MediaCredit.cs" />
     <Compile Include="DTO\Flickr\MediaThumbnail.cs" />
     <Compile Include="Model\FeedModel.cs" />
+    <Compile Include="Model\PhotoEntryModel.cs" />
     <Compile Include="Registry\AutomapperRegistry.cs" />
     <Compile Include="Registry\EntryProfile.cs" />
     <Compile Include="Registry\FeedProfile.cs" />

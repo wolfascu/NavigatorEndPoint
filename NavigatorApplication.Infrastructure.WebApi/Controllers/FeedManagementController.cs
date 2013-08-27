@@ -1,22 +1,20 @@
 ﻿using System.Linq;
-using System.Net.Http;
 using System.Web.Http;
-using Raven.Client.Linq.Indexing;
 
 namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 {
     using System.Collections.Generic;
 
-    using Service.Model;
-    using Service.Repository;
+    using NavigatorApplication.Service.Model;
+    using NavigatorApplication.Service.Repository;
 
     public class FeedManagementController : ApiController
     {
-        private readonly IFeedRepository _feedRepository;
+        private readonly IFeedRepository feedRepository;
         
         public FeedManagementController(IFeedRepository feedRepository)
         {
-            _feedRepository = feedRepository;
+            this.feedRepository = feedRepository;
         }
 
         //public async Task<FlickrFeed> Get(string id)
@@ -27,8 +25,13 @@ namespace NavigatorApplication.Infrastructure.WebApi.Controllers
 
         public IEnumerable<FeedModel> Get()
         {
-            return _feedRepository.GetFeeds();
+            return feedRepository.GetFeeds().ToList().OrderByDescending(x => x.Date);
         }
+ 
+
+
+        
+
 
     }
 }

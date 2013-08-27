@@ -13,42 +13,33 @@ namespace NavigatorApplication.Infrastructure.WebApi.App_Start
 {
     public class LogConfig
     {
-        public static void Configure(string logFile, string logFolder)
+        public static void Configure(string logFolder)
         {
+            var logFolderPattern = ConfigurationManager.AppSettings["LogFolderPattern"];
             string dbConnectionString = ConfigurationManager.ConnectionStrings["SqlLiteConnStr"].ConnectionString;
-            dbConnectionString = dbConnectionString.Replace("{LogFolder}", logFolder);
-            
-            
-            if(!File.Exists(logFile))
+            var logFilePath = dbConnectionString.Substring(dbConnectionString.IndexOf(@"\", StringComparison.Ordinal), dbConnectionString.IndexOf(@";", StringComparison.Ordinal) - dbConnectionString.IndexOf(@"\", StringComparison.Ordinal));
+            dbConnectionString = dbConnectionString.Replace(logFolderPattern, logFolder);
+            var logFile = logFolder + @"\" + logFilePath;
+
+
+            if (!File.Exists(logFile))
             {
                 // create log file
                 // create new table
                 SQLiteConnection.CreateFile(logFile);
-                
-                
+
                 using (var dbConnection = new SQLiteConnection(dbConnectionString))
                 {
                     dbConnection.Open();
-                    
-                    string sql = "create table Log4NetLog (Date datetime, Thread varchar(255), Level varchar(50), Logger varchar(500), Message ntext, Exception ntext)";
-
+                    string sql = "create table HttpRequest (Date datetime, Headers varchar(1000), HttpMethod varchar(255), UriAccessed varchar(500),  IpAddress varchar(100), ContentType varchar(200), BodyContent ntext)";
                     var command = new SQLiteCommand(sql, dbConnection);
-
                     command.ExecuteNonQuery();
                 }
-                
-            }            
-            
- 
+            }
 
-
-
-
-
-            
             //configure log4net
             var hierarchy = LogManager.GetRepository() as Hierarchy;
-            if(hierarchy != null && hierarchy.Configured)
+            if (hierarchy != null && hierarchy.Configured)
             {
                 foreach (IAppender appender in hierarchy.GetAppenders())
                 {

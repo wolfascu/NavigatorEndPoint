@@ -9,7 +9,7 @@
         
         public PushService()
         {
-            this.flickr = new Flickr(); 
+            this.flickr = new Flickr();           
         }
 
         public string[] PushGetTopics()

@@ -3,9 +3,9 @@
     using System.Net;
     using System.Net.Http;
     using System.Threading.Tasks;
-    using Service.DTO.Flickr;
-    using Service.Repository;
-    using Extensions.Filter;
+
+    using NavigatorApplication.Service.DTO.Flickr;
+    using NavigatorApplication.Infrastructure.WebApi.Extensions.Filter;
 
     public class FlickrServiceController : RavenController
     {
@@ -17,7 +17,6 @@
             return response;
         }
 
-        [TokenValidation]
         public async Task<HttpResponseMessage> Post(FlickrFeed flickrFeed)
         {
             await Session.StoreAsync(flickrFeed);

@@ -6,9 +6,8 @@
     public interface IFeedRepository
     {
         IEnumerable<FeedModel> GetFeeds();
+
+        IEnumerable<PhotoEntryModel> GetPhotoEntries(string feedId);
     }
-
-
-
 }
 
