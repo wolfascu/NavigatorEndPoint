@@ -55,7 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlickrService\TestData.cs" />
     <Compile Include="Repository\FeedRepositoryTest.cs" />
     <Compile Include="FlickrService\PushServiceTest.cs" />
     <Compile Include="FlickrService\SearchServiceTest.cs" />
