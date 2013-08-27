@@ -8,8 +8,7 @@
       xmlns:at="http://purl.org/atompub/tombstones/1.0">
   <title>Flickr Push Feed</title>
   <id>urn:flickr:feed:1376803613</id>
-  <updated>2013-08-18T05:26:53Z</updated>
-  <entry>
+  <updated>2013-08-18T05:26:53Z</updated><entry>
     <title>Call of the Sea</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536254446/"/>
     <id>tag:flickr.com,2005:/photo/9536254446</id>
@@ -19,12 +18,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:02Z</updated>
     <flickr:date_taken>2013-04-27T15:54:27-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536254446/&quot; title=&quot;Call of the Sea&quot;&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Call of the Sea&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536254446/&quot; title=&quot;Call of the Sea&quot;&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Call of the Sea&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -37,34 +35,34 @@
     <geo:lat>40.667994</geo:lat>
     <geo:long>-73.965098</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_b.jpg"
+    <media:content url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>Call of the Sea</media:title>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_96edb59b4f_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_2009c568b6_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_6b61bf0b35_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_413cb92bb0_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_96edb59b4f_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_2009c568b6_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2863/9536254446_6b61bf0b35_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <media:category scheme="urn:flickr:tags">nycparks:B010=206</media:category>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.004</flickr:shutterspeed>
-      <flickr:aperture>5.6</flickr:aperture>
-      <flickr:focallength>67</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.004</flickr:shutterspeed>
+        <flickr:aperture>5.6</flickr:aperture>
+        <flickr:focallength>67</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>Call of the Sea</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536254838/"/>
     <id>tag:flickr.com,2005:/photo/9536254838</id>
@@ -74,12 +72,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:07Z</updated>
     <flickr:date_taken>2013-04-27T15:54:58-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536254838/&quot; title=&quot;Call of the Sea&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;Call of the Sea&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536254838/&quot; title=&quot;Call of the Sea&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;Call of the Sea&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -92,34 +89,34 @@
     <geo:lat>40.667988</geo:lat>
     <geo:long>-73.965128</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_b.jpg"
+    <media:content url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_b.jpg" 
                    type="image/jpeg"
                    height="768"
                    width="1024"/>
     <media:title>Call of the Sea</media:title>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_t.jpg" height="75" width="100"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_m.jpg" height="180" width="240"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_n.jpg" height="240" width="320"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1.jpg" height="375" width="500"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_z.jpg" height="480" width="640"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_c.jpg" height="600" width="800"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_d022566bd3_h.jpg" height="1200" width="1600"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_d6b02599fe_k.jpg" height="1536" width="2048"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_391e920246_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_758b5f98e1_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_d022566bd3_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_d6b02599fe_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3707/9536254838_391e920246_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <media:category scheme="urn:flickr:tags">nycparks:B010=206</media:category>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.004</flickr:shutterspeed>
-      <flickr:aperture>5.8</flickr:aperture>
-      <flickr:focallength>89</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.004</flickr:shutterspeed>
+        <flickr:aperture>5.8</flickr:aperture>
+        <flickr:focallength>89</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02103</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536255390/"/>
     <id>tag:flickr.com,2005:/photo/9536255390</id>
@@ -128,12 +125,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:15Z</updated>
     <flickr:date_taken>2013-04-27T16:01:38-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536255390/&quot; title=&quot;DSC02103&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02103&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536255390/&quot; title=&quot;DSC02103&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02103&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -145,33 +141,33 @@
     <geo:lat>40.668094</geo:lat>
     <geo:long>-73.964459</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_b.jpg"
+    <media:content url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_b.jpg" 
                    type="image/jpeg"
                    height="768"
                    width="1024"/>
     <media:title>DSC02103</media:title>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_t.jpg" height="75" width="100"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_m.jpg" height="180" width="240"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_n.jpg" height="240" width="320"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde.jpg" height="375" width="500"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_z.jpg" height="480" width="640"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_c.jpg" height="600" width="800"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_d158a566f1_h.jpg" height="1200" width="1600"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_879ff8ace7_k.jpg" height="1536" width="2048"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_00a6299c23_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_1b5a23abde_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_d158a566f1_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_879ff8ace7_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3710/9536255390_00a6299c23_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.001</flickr:shutterspeed>
-      <flickr:aperture>3.5</flickr:aperture>
-      <flickr:focallength>7</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.001</flickr:shutterspeed>
+        <flickr:aperture>3.5</flickr:aperture>
+        <flickr:focallength>7</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02104</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536255730/"/>
     <id>tag:flickr.com,2005:/photo/9536255730</id>
@@ -180,12 +176,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:21Z</updated>
     <flickr:date_taken>2013-04-27T16:02:28-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536255730/&quot; title=&quot;DSC02104&quot;&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02104&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536255730/&quot; title=&quot;DSC02104&quot;&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02104&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -197,33 +192,33 @@
     <geo:lat>40.668055</geo:lat>
     <geo:long>-73.964431</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_b.jpg"
+    <media:content url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_b.jpg" 
                    type="image/jpeg"
                    height="768"
                    width="1024"/>
     <media:title>DSC02104</media:title>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_t.jpg" height="75" width="100"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_m.jpg" height="180" width="240"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_n.jpg" height="240" width="320"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270.jpg" height="375" width="500"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_z.jpg" height="480" width="640"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_c.jpg" height="600" width="800"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_50c3b261d3_h.jpg" height="1200" width="1600"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_bbbe5b8816_k.jpg" height="1536" width="2048"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_b9eb948916_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_9dbfb1a270_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_50c3b261d3_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_bbbe5b8816_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2873/9536255730_b9eb948916_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.002</flickr:shutterspeed>
-      <flickr:aperture>5</flickr:aperture>
-      <flickr:focallength>26</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.002</flickr:shutterspeed>
+        <flickr:aperture>5</flickr:aperture>
+        <flickr:focallength>26</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02110</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536256230/"/>
     <id>tag:flickr.com,2005:/photo/9536256230</id>
@@ -232,12 +227,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:28Z</updated>
     <flickr:date_taken>2013-04-27T16:07:17-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536256230/&quot; title=&quot;DSC02110&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;DSC02110&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536256230/&quot; title=&quot;DSC02110&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;DSC02110&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -249,33 +243,33 @@
     <geo:lat>40.668205</geo:lat>
     <geo:long>-73.964295</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_b.jpg"
+    <media:content url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>DSC02110</media:title>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_b634ae049f_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_73d0bfb157_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_5fe006a49a_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_1cfcc3452d_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_b634ae049f_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_73d0bfb157_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3721/9536256230_5fe006a49a_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.001</flickr:shutterspeed>
-      <flickr:aperture>4</flickr:aperture>
-      <flickr:focallength>12</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.001</flickr:shutterspeed>
+        <flickr:aperture>4</flickr:aperture>
+        <flickr:focallength>12</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02112</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9533470657/"/>
     <id>tag:flickr.com,2005:/photo/9533470657</id>
@@ -284,12 +278,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:35Z</updated>
     <flickr:date_taken>2013-04-27T16:10:09-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9533470657/&quot; title=&quot;DSC02112&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02112&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9533470657/&quot; title=&quot;DSC02112&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02112&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -301,33 +294,33 @@
     <geo:lat>40.668094</geo:lat>
     <geo:long>-73.964345</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_b.jpg"
+    <media:content url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_b.jpg" 
                    type="image/jpeg"
                    height="768"
                    width="1024"/>
     <media:title>DSC02112</media:title>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_t.jpg" height="75" width="100"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_m.jpg" height="180" width="240"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_n.jpg" height="240" width="320"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9.jpg" height="375" width="500"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_z.jpg" height="480" width="640"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_c.jpg" height="600" width="800"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_61ae490c9c_h.jpg" height="1200" width="1600"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_fe0a5aea58_k.jpg" height="1536" width="2048"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_e02eb71166_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_dd28ed19d9_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_61ae490c9c_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_fe0a5aea58_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5350/9533470657_e02eb71166_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.00125</flickr:shutterspeed>
-      <flickr:aperture>4</flickr:aperture>
-      <flickr:focallength>8</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.00125</flickr:shutterspeed>
+        <flickr:aperture>4</flickr:aperture>
+        <flickr:focallength>8</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02124</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536257086/"/>
     <id>tag:flickr.com,2005:/photo/9536257086</id>
@@ -336,12 +329,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:41Z</updated>
     <flickr:date_taken>2013-04-27T16:13:36-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536257086/&quot; title=&quot;DSC02124&quot;&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2841/9536257086_05dd27497e_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;DSC02124&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536257086/&quot; title=&quot;DSC02124&quot;&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2841/9536257086_05dd27497e_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;DSC02124&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -353,33 +345,33 @@
     <geo:lat>40.668475</geo:lat>
     <geo:long>-73.964106</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_b.jpg"
+    <media:content url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>DSC02124</media:title>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_4a78b10d20_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_b6e1950a5f_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_68579dbf43_o.jpg" height="4896" width="3672"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_05dd27497e_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_4a78b10d20_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_b6e1950a5f_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2841/9536257086_68579dbf43_o.jpg" height="4896" width="3672"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.00125</flickr:shutterspeed>
-      <flickr:aperture>4.5</flickr:aperture>
-      <flickr:focallength>14</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.00125</flickr:shutterspeed>
+        <flickr:aperture>4.5</flickr:aperture>
+        <flickr:focallength>14</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02129</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536257378/"/>
     <id>tag:flickr.com,2005:/photo/9536257378</id>
@@ -388,12 +380,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:47Z</updated>
     <flickr:date_taken>2013-04-27T16:15:50-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536257378/&quot; title=&quot;DSC02129&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7397/9536257378_3532b4d731_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02129&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536257378/&quot; title=&quot;DSC02129&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7397/9536257378_3532b4d731_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02129&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -405,33 +396,33 @@
     <geo:lat>40.668488</geo:lat>
     <geo:long>-73.963362</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_b.jpg"
+    <media:content url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_b.jpg" 
                    type="image/jpeg"
                    height="768"
                    width="1024"/>
     <media:title>DSC02129</media:title>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_t.jpg" height="75" width="100"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_m.jpg" height="180" width="240"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_n.jpg" height="240" width="320"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731.jpg" height="375" width="500"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_z.jpg" height="480" width="640"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_c.jpg" height="600" width="800"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_67c88e04cc_h.jpg" height="1200" width="1600"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3d286c89d1_k.jpg" height="1536" width="2048"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_88c0ab645e_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3532b4d731_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_67c88e04cc_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_3d286c89d1_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7397/9536257378_88c0ab645e_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.001625</flickr:shutterspeed>
-      <flickr:aperture>3.5</flickr:aperture>
-      <flickr:focallength>6</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.001625</flickr:shutterspeed>
+        <flickr:aperture>3.5</flickr:aperture>
+        <flickr:focallength>6</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02139</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536257734/"/>
     <id>tag:flickr.com,2005:/photo/9536257734</id>
@@ -440,12 +431,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:52Z</updated>
     <flickr:date_taken>2013-04-27T17:09:55-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536257734/&quot; title=&quot;DSC02139&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3744/9536257734_5c86367c42_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;DSC02139&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536257734/&quot; title=&quot;DSC02139&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3744/9536257734_5c86367c42_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;DSC02139&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -457,33 +447,33 @@
     <geo:lat>40.668391</geo:lat>
     <geo:long>-73.965323</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_b.jpg"
+    <media:content url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>DSC02139</media:title>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_006435a119_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_33f0970b17_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_b27891ae3e_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_5c86367c42_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_006435a119_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_33f0970b17_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3744/9536257734_b27891ae3e_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.004</flickr:shutterspeed>
-      <flickr:aperture>5.8</flickr:aperture>
-      <flickr:focallength>89</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.004</flickr:shutterspeed>
+        <flickr:aperture>5.8</flickr:aperture>
+        <flickr:focallength>89</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>Andre J. G. Parmentier</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536258192/"/>
     <id>tag:flickr.com,2005:/photo/9536258192</id>
@@ -493,12 +483,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:24:59Z</updated>
     <flickr:date_taken>2013-04-27T17:22:02-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536258192/&quot; title=&quot;Andre J. G. Parmentier&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7286/9536258192_b8baff885d_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;Andre J. G. Parmentier&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536258192/&quot; title=&quot;Andre J. G. Parmentier&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7286/9536258192_b8baff885d_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;Andre J. G. Parmentier&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -511,34 +500,34 @@
     <geo:lat>40.671991</geo:lat>
     <geo:long>-73.96525</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_b.jpg"
+    <media:content url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_b.jpg" 
                    type="image/jpeg"
                    height="768"
                    width="1024"/>
     <media:title>Andre J. G. Parmentier</media:title>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_t.jpg" height="75" width="100"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_m.jpg" height="180" width="240"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_n.jpg" height="240" width="320"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d.jpg" height="375" width="500"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_z.jpg" height="480" width="640"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_c.jpg" height="600" width="800"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_855f73b7a9_h.jpg" height="1200" width="1600"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_f84b939a44_k.jpg" height="1536" width="2048"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_afd226f555_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_b8baff885d_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_855f73b7a9_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_f84b939a44_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7286/9536258192_afd226f555_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <media:category scheme="urn:flickr:tags">nycparks:B010=1159</media:category>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.0125</flickr:shutterspeed>
-      <flickr:aperture>3.2</flickr:aperture>
-      <flickr:focallength>5</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.0125</flickr:shutterspeed>
+        <flickr:aperture>3.2</flickr:aperture>
+        <flickr:focallength>5</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>Brooklyn</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9533472455/"/>
     <id>tag:flickr.com,2005:/photo/9533472455</id>
@@ -547,12 +536,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:25:04Z</updated>
     <flickr:date_taken>2013-04-27T17:49:25-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9533472455/&quot; title=&quot;Brooklyn&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5488/9533472455_8880c99d61_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Brooklyn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9533472455/&quot; title=&quot;Brooklyn&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5488/9533472455_8880c99d61_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Brooklyn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -564,33 +552,33 @@
     <geo:lat>40.671677</geo:lat>
     <geo:long>-73.964417</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_b.jpg"
+    <media:content url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>Brooklyn</media:title>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_fcce9e7570_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_c16967a440_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_4689c5a179_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_8880c99d61_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_fcce9e7570_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_c16967a440_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5488/9533472455_4689c5a179_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.004</flickr:shutterspeed>
-      <flickr:aperture>5.6</flickr:aperture>
-      <flickr:focallength>71</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.004</flickr:shutterspeed>
+        <flickr:aperture>5.6</flickr:aperture>
+        <flickr:focallength>71</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>Brooklyn</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536258718/"/>
     <id>tag:flickr.com,2005:/photo/9536258718</id>
@@ -599,12 +587,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:25:08Z</updated>
     <flickr:date_taken>2013-04-27T17:50:19-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536258718/&quot; title=&quot;Brooklyn&quot;&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2810/9536258718_451e575fd9_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Brooklyn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536258718/&quot; title=&quot;Brooklyn&quot;&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2810/9536258718_451e575fd9_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Brooklyn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -616,33 +603,33 @@
     <geo:lat>40.671724</geo:lat>
     <geo:long>-73.964392</geo:long>
     <woe:woeid>23511807</woe:woeid>
-    <media:content url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_b.jpg"
+    <media:content url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>Brooklyn</media:title>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_56cefab4c1_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_036b20bb5f_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_d237ba11fb_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_451e575fd9_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_56cefab4c1_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_036b20bb5f_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm3.staticflickr.com/2810/9536258718_d237ba11fb_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.004</flickr:shutterspeed>
-      <flickr:aperture>5.8</flickr:aperture>
-      <flickr:focallength>89</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.004</flickr:shutterspeed>
+        <flickr:aperture>5.8</flickr:aperture>
+        <flickr:focallength>89</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02151</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536259146/"/>
     <id>tag:flickr.com,2005:/photo/9536259146</id>
@@ -650,12 +637,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:25:14Z</updated>
     <flickr:date_taken>2013-04-27T18:00:39-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536259146/&quot; title=&quot;DSC02151&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02151&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536259146/&quot; title=&quot;DSC02151&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02151&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -663,33 +649,33 @@
       <flickr:buddyicon>http://l.yimg.com/g/images/buddyicon07.png#47222519@N07</flickr:buddyicon>
     </author>
     <link rel="enclosure" type="image/jpeg" href="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_b.jpg" />
-    <media:content url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_b.jpg"
+    <media:content url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_b.jpg" 
                    type="image/jpeg"
                    height="768"
                    width="1024"/>
     <media:title>DSC02151</media:title>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_t.jpg" height="75" width="100"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_m.jpg" height="180" width="240"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_n.jpg" height="240" width="320"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7.jpg" height="375" width="500"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_z.jpg" height="480" width="640"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_c.jpg" height="600" width="800"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7b9403ccd9_h.jpg" height="1200" width="1600"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_3b21a57e39_k.jpg" height="1536" width="2048"/>
-    <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_97a1306339_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7bf64d96e7_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_7b9403ccd9_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_3b21a57e39_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm6.staticflickr.com/5341/9536259146_97a1306339_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.033375</flickr:shutterspeed>
-      <flickr:aperture>4.5</flickr:aperture>
-      <flickr:focallength>20</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.033375</flickr:shutterspeed>
+        <flickr:aperture>4.5</flickr:aperture>
+        <flickr:focallength>20</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>Washington Irving</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536259542/"/>
     <id>tag:flickr.com,2005:/photo/9536259542</id>
@@ -697,12 +683,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:25:21Z</updated>
     <flickr:date_taken>2013-04-27T19:30:33-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536259542/&quot; title=&quot;Washington Irving&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7348/9536259542_5c633c925c_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Washington Irving&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536259542/&quot; title=&quot;Washington Irving&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7348/9536259542_5c633c925c_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Washington Irving&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -710,33 +695,33 @@
       <flickr:buddyicon>http://l.yimg.com/g/images/buddyicon07.png#47222519@N07</flickr:buddyicon>
     </author>
     <link rel="enclosure" type="image/jpeg" href="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_b.jpg" />
-    <media:content url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_b.jpg"
+    <media:content url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>Washington Irving</media:title>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_4fa26ab431_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_711c78fd71_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_b6e8038ace_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_5c633c925c_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_4fa26ab431_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_711c78fd71_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7348/9536259542_b6e8038ace_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.04</flickr:shutterspeed>
-      <flickr:aperture>5</flickr:aperture>
-      <flickr:focallength>47</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.04</flickr:shutterspeed>
+        <flickr:aperture>5</flickr:aperture>
+        <flickr:focallength>47</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>Washington Irving</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9533474091/"/>
     <id>tag:flickr.com,2005:/photo/9533474091</id>
@@ -745,12 +730,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:25:29Z</updated>
     <flickr:date_taken>2013-04-27T19:31:03-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9533474091/&quot; title=&quot;Washington Irving&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Washington Irving&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9533474091/&quot; title=&quot;Washington Irving&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Washington Irving&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -762,33 +746,33 @@
     <geo:lat>40.735741</geo:lat>
     <geo:long>-73.987548</geo:long>
     <woe:woeid>55992175</woe:woeid>
-    <media:content url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_b.jpg"
+    <media:content url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>Washington Irving</media:title>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f37fdd3cf_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_421ccc126a_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_9f6ac2153a_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f1d24f5d8_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_8f37fdd3cf_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_421ccc126a_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm8.staticflickr.com/7382/9533474091_9f6ac2153a_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.033375</flickr:shutterspeed>
-      <flickr:aperture>4.5</flickr:aperture>
-      <flickr:focallength>15</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.033375</flickr:shutterspeed>
+        <flickr:aperture>4.5</flickr:aperture>
+        <flickr:focallength>15</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>Washington Irving</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536260324/"/>
     <id>tag:flickr.com,2005:/photo/9536260324</id>
@@ -797,12 +781,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:25:34Z</updated>
     <flickr:date_taken>2013-04-27T19:31:21-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536260324/&quot; title=&quot;Washington Irving&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Washington Irving&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536260324/&quot; title=&quot;Washington Irving&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Washington Irving&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -814,33 +797,33 @@
     <geo:lat>40.735727</geo:lat>
     <geo:long>-73.987584</geo:long>
     <woe:woeid>55992175</woe:woeid>
-    <media:content url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_b.jpg"
+    <media:content url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>Washington Irving</media:title>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_223c3fb2c1_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_a5ef5bf7f3_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_fffda18ae5_o.jpg" height="4896" width="3672"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_ca84d801a6_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_223c3fb2c1_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_a5ef5bf7f3_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3787/9536260324_fffda18ae5_o.jpg" height="4896" width="3672"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.066625</flickr:shutterspeed>
-      <flickr:aperture>5</flickr:aperture>
-      <flickr:focallength>34</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.066625</flickr:shutterspeed>
+        <flickr:aperture>5</flickr:aperture>
+        <flickr:focallength>34</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>Washington Irving</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536260770/"/>
     <id>tag:flickr.com,2005:/photo/9536260770</id>
@@ -849,12 +832,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:25:41Z</updated>
     <flickr:date_taken>2013-04-27T19:32:00-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536260770/&quot; title=&quot;Washington Irving&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3724/9536260770_dce227054e_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Washington Irving&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536260770/&quot; title=&quot;Washington Irving&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3724/9536260770_dce227054e_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;Washington Irving&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -866,33 +848,33 @@
     <geo:lat>40.735855</geo:lat>
     <geo:long>-73.987506</geo:long>
     <woe:woeid>55992175</woe:woeid>
-    <media:content url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_b.jpg"
+    <media:content url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_b.jpg" 
                    type="image/jpeg"
                    height="1024"
                    width="768"/>
     <media:title>Washington Irving</media:title>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_t.jpg" height="100" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_m.jpg" height="240" width="180"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_n.jpg" height="320" width="240"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e.jpg" height="500" width="375"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_z.jpg" height="640" width="480"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_c.jpg" height="800" width="600"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dc9e930e1d_h.jpg" height="1600" width="1200"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_9ff8607095_k.jpg" height="2048" width="1536"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_d779224faf_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_t.jpg" height="100" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_m.jpg" height="240" width="180"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_n.jpg" height="320" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e.jpg" height="500" width="375"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_z.jpg" height="640" width="480"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dce227054e_c.jpg" height="800" width="600"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_dc9e930e1d_h.jpg" height="1600" width="1200"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_9ff8607095_k.jpg" height="2048" width="1536"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3724/9536260770_d779224faf_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.066625</flickr:shutterspeed>
-      <flickr:aperture>5</flickr:aperture>
-      <flickr:focallength>39</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.066625</flickr:shutterspeed>
+        <flickr:aperture>5</flickr:aperture>
+        <flickr:focallength>39</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
-  <entry>
+<entry>
     <title>DSC02171</title>
     <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/stuartshay/9536261176/"/>
     <id>tag:flickr.com,2005:/photo/9536261176</id>
@@ -901,12 +883,11 @@
     <flickr:update type="created" />
     <updated>2013-08-18T05:25:47Z</updated>
     <flickr:date_taken>2013-04-28T14:55:59-08:00</flickr:date_taken>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/stuartshay/&quot;&gt;SPS101&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536261176/&quot; title=&quot;DSC02171&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3690/9536261176_c18126c050_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02171&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-      &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuartshay/9536261176/&quot; title=&quot;DSC02171&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3690/9536261176_c18126c050_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;DSC02171&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    </content>
+</content>
     <author>
       <name>SPS101</name>
       <uri>http://www.flickr.com/people/stuartshay/</uri>
@@ -918,30 +899,30 @@
     <geo:lat>40.764244</geo:lat>
     <geo:long>-74.002417</geo:long>
     <woe:woeid>23511806</woe:woeid>
-    <media:content url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_b.jpg"
+    <media:content url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_b.jpg" 
                    type="image/jpeg"
                    height="768"
                    width="1024"/>
     <media:title>DSC02171</media:title>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_s.jpg" height="75" width="75"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_q.jpg" height="150" width="150"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_t.jpg" height="75" width="100"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_m.jpg" height="180" width="240"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_n.jpg" height="240" width="320"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050.jpg" height="375" width="500"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_z.jpg" height="480" width="640"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_c.jpg" height="600" width="800"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_a3deda3f63_h.jpg" height="1200" width="1600"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_f79680d477_k.jpg" height="1536" width="2048"/>
-    <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_4b9c09009d_o.jpg" height="3672" width="4896"/>
-    <media:credit role="photographer">SPS101</media:credit>
+        <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_s.jpg" height="75" width="75"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_q.jpg" height="150" width="150"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_t.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_m.jpg" height="180" width="240"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_n.jpg" height="240" width="320"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050.jpg" height="375" width="500"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_z.jpg" height="480" width="640"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_c18126c050_c.jpg" height="600" width="800"/>
+                <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_a3deda3f63_h.jpg" height="1200" width="1600"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_f79680d477_k.jpg" height="1536" width="2048"/>
+            <media:thumbnail url="http://farm4.staticflickr.com/3690/9536261176_4b9c09009d_o.jpg" height="3672" width="4896"/>
+        <media:credit role="photographer">SPS101</media:credit>
     <flickr:exif>
-      <flickr:camera>SONY DSC-HX20V</flickr:camera>
-      <flickr:shutterspeed>0.001</flickr:shutterspeed>
-      <flickr:aperture>4.5</flickr:aperture>
-      <flickr:focallength>15</flickr:focallength>
+        <flickr:camera>SONY DSC-HX20V</flickr:camera>
+        <flickr:shutterspeed>0.001</flickr:shutterspeed>
+        <flickr:aperture>4.5</flickr:aperture>
+        <flickr:focallength>15</flickr:focallength>
     </flickr:exif>
     <flickr:safety>safe</flickr:safety>
-  </entry>
+</entry>
 
 </feed>
