@@ -25,7 +25,6 @@ packages/
 
 # SQLite Database Files
 *.db
-*.sqlite
 
 # ReSharper is a .NET coding add-in
 _ReSharper*/
